@@ -1,382 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>The Nervous System, One Concept at a Time</title>
-
-  <!-- Reveal.js CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/night.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Nervous System — One Concept at a Time</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     :root {
-      --ns-blue: #4a9eff;
-      --ns-teal: #2ec4b6;
-      --ns-orange: #ff6b35;
-      --ns-light: #e8f4f8;
+      --theme-color: #0066cc;
     }
-
-    .reveal h1, .reveal h2 { color: var(--ns-teal); }
-    .reveal h3 { color: var(--ns-blue); }
-
-    .part-badge {
-      display: inline-block;
-      background: var(--ns-orange);
-      color: white;
-      padding: 4px 14px;
-      border-radius: 20px;
-      font-size: 0.75em;
-      font-weight: bold;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-bottom: 1em;
+    .sidebar-nav a {
+      font-size: 0.92em;
     }
-
-    .week-badge {
-      display: inline-block;
-      background: var(--ns-blue);
-      color: white;
-      padding: 4px 14px;
-      border-radius: 20px;
-      font-size: 0.7em;
-      font-weight: bold;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.6em;
+    .sidebar > h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      padding: 1rem 0.5rem;
+      line-height: 1.4;
     }
-
-    .lesson-code {
-      font-family: monospace;
-      color: var(--ns-teal);
-      font-size: 0.9em;
-      margin-bottom: 0.3em;
+    .markdown-section h1 {
+      font-size: 2rem;
     }
-
-    .concept-label { color: #aaa; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.1em; }
-    .concept-text  { font-size: 1em; color: var(--ns-light); margin-top: 0.3em; margin-bottom: 1.2em; }
-    .question-label { color: #aaa; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.1em; }
-    .question-text  { font-size: 1.1em; color: white; font-style: italic; margin-top: 0.3em; }
-
-    .nav-hint {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      font-size: 0.55em;
-      color: rgba(255,255,255,0.3);
+    .markdown-section h2 {
+      border-bottom: 2px solid #f0f0f0;
+      padding-bottom: 0.4rem;
+      margin-top: 2.5rem;
     }
-
-    .toc-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.6em;
-      font-size: 0.7em;
-      text-align: left;
-      margin-top: 1em;
+    .markdown-section blockquote {
+      border-left: 4px solid #0066cc;
+      background: #f5f9ff;
+      padding: 0.8rem 1rem;
+      border-radius: 0 4px 4px 0;
     }
-    .toc-item {
-      background: rgba(255,255,255,0.05);
-      border-left: 3px solid var(--ns-teal);
-      padding: 0.4em 0.7em;
-      border-radius: 4px;
-    }
-    .toc-item .part-num { color: var(--ns-orange); font-weight: bold; }
-    .toc-item .part-name { color: var(--ns-light); }
-    .toc-item .part-weeks { color: #aaa; font-size: 0.9em; }
   </style>
 </head>
 <body>
-<div class="reveal">
-  <div class="slides">
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- INTRODUCTION                                           -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="00-introduction">
-      <section data-id="index" data-markdown="00-introduction/index.md"
-               data-separator="^---"
-               data-separator-vertical="^--">
-      </section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART I — Невробиологични основи (Weeks 1–6)           -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-01">
-      <section data-id="index" data-markdown="part-01-neurobio-foundations/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-01">
-      <section data-id="index" data-markdown="week-01/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-02">
-      <section data-id="index" data-markdown="week-02/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-03">
-      <section data-id="index" data-markdown="week-03/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-04">
-      <section data-id="index" data-markdown="week-04/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-05">
-      <section data-id="index" data-markdown="week-05/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-06">
-      <section data-id="index" data-markdown="week-06/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART II — Физиологична регулация и мозък–тяло (7–15)  -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-02">
-      <section data-id="index" data-markdown="part-02-physiological-regulation/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-07">
-      <section data-id="index" data-markdown="week-07/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-08">
-      <section data-id="index" data-markdown="week-08/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-09">
-      <section data-id="index" data-markdown="week-09/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-10">
-      <section data-id="index" data-markdown="week-10/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-11">
-      <section data-id="index" data-markdown="week-11/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-12">
-      <section data-id="index" data-markdown="week-12/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-13">
-      <section data-id="index" data-markdown="week-13/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-14">
-      <section data-id="index" data-markdown="week-14/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-15">
-      <section data-id="index" data-markdown="week-15/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART III — Автономна динамика (Weeks 16–18)            -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-03">
-      <section data-id="index" data-markdown="part-03-autonomic-dynamics/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-16">
-      <section data-id="index" data-markdown="week-16/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-17">
-      <section data-id="index" data-markdown="week-17/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-18">
-      <section data-id="index" data-markdown="week-18/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART IV — Афективна невронаука (Weeks 19–23)           -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-04">
-      <section data-id="index" data-markdown="part-04-affective-neuroscience/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-19">
-      <section data-id="index" data-markdown="week-19/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-20">
-      <section data-id="index" data-markdown="week-20/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-21">
-      <section data-id="index" data-markdown="week-21/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-22">
-      <section data-id="index" data-markdown="week-22/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-23">
-      <section data-id="index" data-markdown="week-23/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART V — Невроразвитие (Weeks 24–29)                   -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-05">
-      <section data-id="index" data-markdown="part-05-neurodevelopment/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-24">
-      <section data-id="index" data-markdown="week-24/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-25">
-      <section data-id="index" data-markdown="week-25/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-26">
-      <section data-id="index" data-markdown="week-26/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-27">
-      <section data-id="index" data-markdown="week-27/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-28">
-      <section data-id="index" data-markdown="week-28/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-29">
-      <section data-id="index" data-markdown="week-29/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART VI — Стрес, защита и адаптация (Weeks 30–32)     -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-06">
-      <section data-id="index" data-markdown="part-06-stress-protection/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-30">
-      <section data-id="index" data-markdown="week-30/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-31">
-      <section data-id="index" data-markdown="week-31/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-32">
-      <section data-id="index" data-markdown="week-32/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART VII — Социална невронаука (Weeks 33–35)           -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-07">
-      <section data-id="index" data-markdown="part-07-social-neuroscience/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-33">
-      <section data-id="index" data-markdown="week-33/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-34">
-      <section data-id="index" data-markdown="week-34/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-35">
-      <section data-id="index" data-markdown="week-35/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <!-- PART VIII — Интеграция и приложение (Weeks 36–38)      -->
-    <!-- ═══════════════════════════════════════════════════════ -->
-    <section data-id="part-08">
-      <section data-id="index" data-markdown="part-08-integration/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-36">
-      <section data-id="index" data-markdown="week-36/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-37">
-      <section data-id="index" data-markdown="week-37/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-    <section data-id="week-38">
-      <section data-id="index" data-markdown="week-38/index.md"
-               data-separator="^---" data-separator-vertical="^--"></section>
-    </section>
-
-  </div><!-- /.slides -->
-</div><!-- /.reveal -->
-
-<div class="nav-hint">← → navigate weeks &nbsp;|&nbsp; ↑ ↓ navigate lessons</div>
-
-<!-- Reveal.js CDN -->
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
-
-<script>
-  Reveal.initialize({
-    hash: true,
-    history: true,
-    transition: 'slide',
-    transitionSpeed: 'fast',
-    center: true,
-    width: 1200,
-    height: 700,
-    margin: 0.08,
-    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-  });
-</script>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'The Nervous System<br><small>One Concept at a Time</small>',
+      repo: 'https://github.com/undercurremt/NSS',
+      homepage: 'README.md',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search the course...',
+        noData: 'No results found.',
+        depth: 3,
+      },
+      themeColor: '#0066cc',
+      coverpage: false,
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
 </body>
 </html>

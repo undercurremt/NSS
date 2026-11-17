@@ -38,6 +38,7 @@ parts:
   - number: 2
     title: Невронна сигнализация — необходимият минимум
     scope: Електрохимичните градиенти и потенциалът на покой се обединяват. Нернст/GHK и каналната кинетика са допълнителен, незадължителен материал; запазват се причинните механизми.
+    show_scope: false
     lessons:
     - id: '2.1'
       title: Ion Gradients and the Resting Neuron
@@ -86,6 +87,7 @@ parts:
   - number: 4
     title: Сетивност, възприятие и действие
     scope: 'Обединени са две оригинални седмици: трансдукцията по модалности се използва като пример, а не като отделен подробен курс по зрение, слух, вкус и обоняние.'
+    show_scope: false
     lessons:
     - id: '4.1'
       title: Sensory Transduction and Neural Coding
@@ -382,6 +384,7 @@ parts:
   - number: 16
     title: 'Поливагална теория: предложения, критики и приложения'
     scope: Две седмици за Porges/Dana са обединени в една. Физиологични факти, еволюционни хипотези и приложни метафори се оценяват поотделно.
+    show_scope: false
     lessons:
     - id: '16.1'
       title: What Polyvagal Theory Proposes
@@ -482,6 +485,7 @@ parts:
   - number: 20
     title: Съзнателно преживяване и теории за емоциите
     scope: Две седмици са обединени; теориите се сравняват чрез проверими предсказания, не чрез авторитет на авторите.
+    show_scope: false
     lessons:
     - id: '20.1'
       title: Conscious Experience, Awareness and Access

@@ -1,9 +1,9 @@
 # The Nervous System — One Concept at a Time
 
-**8 modules · 107 lessons**
+**8 modules · 103 lessons**
 
 <!-- progress -->
-**Published: 5 / 107 lessons**
+**Published: 5 / 103 lessons**
 <!-- /progress -->
 
 ---
@@ -11,7 +11,7 @@
 This is a structured, science-first course in neuroscience and psychophysiology.  
 Each lesson is built around a single concept and a single guiding question.
 
-> *One concept at a time. One question at a time. 107 lessons in total.*
+> *One concept at a time. One question at a time. 103 lessons in total.*
 
 ---
 
@@ -19,13 +19,13 @@ Each lesson is built around a single concept and a single guiding question.
 
 | Module | Topic | Lessons |
 |--------|-------|---------|
-| 1 | Foundations: From Neural Organization to Adaptive Networks | 14 |
+| 1 | Foundations: From Neural Organization to Adaptive Networks | 13 |
 | 2 | Physiological Regulation and Brain–Body Communication | 20 |
 | 3 | Interoception, Bodily Experience and Pain | 7 |
-| 4 | Affect, Motivation and Emotional Learning | 14 |
+| 4 | Affect, Motivation and Emotional Learning | 13 |
 | 5 | Development, Relationships and Self-Regulation | 16 |
 | 6 | Threat, Stress, Defense and Recovery | 10 |
-| 7 | Social Context, Decision-Making and Model Critique | 11 |
+| 7 | Social Context, Decision-Making and Model Critique | 9 |
 | 8 | Evidence-Based Regulation in Specific States | 15 |
 
 ---
@@ -38,4 +38,4 @@ Each lesson is built around a single concept and a single guiding question.
 
 ---
 
-**Master Lesson Index v1.4** — concept-based modules · Index complete · Full lesson content in development
+**Master Curriculum Control v1.4** — concept-based modules · Index complete · Full lesson content in development

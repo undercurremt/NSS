@@ -3,7 +3,7 @@
 
 *Афект, мотивация и емоционално учене*
 
-**0 of 14 lessons published**
+**0 of 13 lessons published**
 
 ---
 
@@ -13,7 +13,7 @@
 
 **Guiding question:** Какво е общото и различното между афективен процес, емоционална реакция и съзнателно чувство?
 
-**Dependencies:** 3.7, 1.9
+**Dependencies:** 3.7, 1.8
 
 *Full lesson content coming soon.*
 
@@ -37,7 +37,7 @@
 
 **Guiding question:** Защо желанието, удоволствието и научаването за награда не са едно и също?
 
-**Dependencies:** 1.14, 4.1
+**Dependencies:** 1.13, 4.1
 
 *Full lesson content coming soon.*
 
@@ -61,7 +61,7 @@
 
 **Guiding question:** Как неутрални сигнали придобиват емоционално значение чрез опит?
 
-**Dependencies:** 1.14, 4.1
+**Dependencies:** 1.13, 4.1
 
 *Full lesson content coming soon.*
 
@@ -97,7 +97,7 @@
 
 **Guiding question:** Защо отслабването на научена реакция не означава непременно изтриване на паметта?
 
-**Dependencies:** 4.6, 1.14
+**Dependencies:** 4.6, 1.13
 
 *Full lesson content coming soon.*
 
@@ -121,17 +121,17 @@
 
 **Guiding question:** Как повторението и подкреплението променят контрола върху действията?
 
-**Dependencies:** 1.14, 4.7
+**Dependencies:** 1.13, 4.7
 
 *Full lesson content coming soon.*
 
 ---
 
-## 4.11  Comparative Affective Neuroscience
+## 4.11  Comparative Affective Neuroscience and Panksepp’s Framework
 
-**Core concept:** Възможности и граници на животинските модели
+**Core concept:** Сравнителни афективни механизми и ограничения на модела на Panksepp
 
-**Guiding question:** Какво позволяват и какво не позволяват заключенията от изследвания на афективно поведение при животни?
+**Guiding question:** Какво показват експериментите с животни за афективните процеси и докъде се простират изводите от модела на Panksepp?
 
 **Dependencies:** 4.1, 4.4
 
@@ -139,19 +139,7 @@
 
 ---
 
-## 4.12  Panksepp’s Primary-Process Framework
-
-**Core concept:** Първични афективни системи като научен модел
-
-**Guiding question:** Кои твърдения на Panksepp имат експериментална основа и кои са теоретични интерпретации?
-
-**Dependencies:** 4.11
-
-*Full lesson content coming soon.*
-
----
-
-## 4.13  Competing Accounts of Emotion
+## 4.12  Competing Accounts of Emotion
 
 **Core concept:** Съпоставка на Damasio, LeDoux и Barrett
 
@@ -163,13 +151,13 @@
 
 ---
 
-## 4.14  Conscious Feelings and Limits of Neural Inference
+## 4.13  Conscious Feelings and Limits of Neural Inference
 
 **Core concept:** Граници на изводите за съзнателното преживяване
 
 **Guiding question:** Какво могат и какво не могат да установят невронните корелати на съзнателните чувства?
 
-**Dependencies:** 4.13
+**Dependencies:** 4.12
 
 *Full lesson content coming soon.*
 

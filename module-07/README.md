@@ -3,7 +3,7 @@
 
 *Социален контекст, решения и критична оценка на модели*
 
-**0 of 11 lessons published**
+**0 of 9 lessons published**
 
 ---
 
@@ -13,17 +13,17 @@
 
 **Guiding question:** Как лица, глас и поведение дават социална информация, зависеща от контекста?
 
-**Dependencies:** 1.10, 4.1
+**Dependencies:** 1.9, 4.1
 
 *Full lesson content coming soon.*
 
 ---
 
-## 7.2  Social Support and Physiological Responses
+## 7.2  Social Support, Physiological Responses and Interpersonal Synchrony
 
-**Core concept:** Социална подкрепа и телесни реакции
+**Core concept:** Социална подкрепа и граници на физиологичната синхронизация
 
-**Guiding question:** Как присъствието и поведението на други хора могат да променят физиологичните реакции?
+**Guiding question:** Как присъствието на другите влияе върху физиологичните реакции и защо синхронността не доказва сама по себе си безопасност или качество на връзката?
 
 **Dependencies:** 5.10, 6.1, 7.1
 
@@ -31,19 +31,7 @@
 
 ---
 
-## 7.3  Interpersonal Synchrony: Meaning and Limits
-
-**Core concept:** Синхронизация и нейната интерпретация
-
-**Guiding question:** Защо синхронните сигнали не доказват автоматично положителна връзка или безопасност?
-
-**Dependencies:** 7.2
-
-*Full lesson content coming soon.*
-
----
-
-## 7.4  Social Context, Culture and Regulation
+## 7.3  Social Context, Culture and Regulation
 
 **Core concept:** Социално-културни влияния
 
@@ -55,31 +43,31 @@
 
 ---
 
-## 7.5  Value, Affect and Decision-Making
+## 7.4  Value, Affect and Decision-Making
 
 **Core concept:** Оценка на алтернативи
 
 **Guiding question:** Как мотивацията, афектът и несигурността влияят на избора?
 
-**Dependencies:** 4.3, 4.9, 7.4
+**Dependencies:** 4.3, 4.9, 7.3
 
 *Full lesson content coming soon.*
 
 ---
 
-## 7.6  Behavioral Flexibility and Changing Habits
+## 7.5  Behavioral Flexibility and Changing Habits
 
 **Core concept:** Промяна на избор и автоматизирани реакции
 
 **Guiding question:** Как човек променя стратегия или навик при нова информация?
 
-**Dependencies:** 4.10, 7.5
+**Dependencies:** 4.10, 7.4
 
 *Full lesson content coming soon.*
 
 ---
 
-## 7.7  Measuring Autonomic Responses Without Mind-Reading
+## 7.6  Measuring Autonomic Responses Without Mind-Reading
 
 **Core concept:** Интерпретация на физиологични измервания
 
@@ -91,49 +79,37 @@
 
 ---
 
-## 7.8  HRV, RSA and Their Interpretive Limits
+## 7.7  HRV, RSA and Their Interpretive Limits
 
 **Core concept:** Вариабилност на сърдечния ритъм и респираторна синусова аритмия
 
 **Guiding question:** Какво отразяват HRV и RSA и какво не можем да заключим само от тях?
 
-**Dependencies:** 2.11, 2.15, 7.7
+**Dependencies:** 2.11, 2.15, 7.6
 
 *Full lesson content coming soon.*
 
 ---
 
-## 7.9  Polyvagal Theory: Claims and Physiological Tests
+## 7.8  Polyvagal Theory: Claims and Physiological Tests
 
 **Core concept:** Проверими твърдения на поливагалната теория
 
 **Guiding question:** Кои твърдения на поливагалната теория са съвместими с физиологията и кои са оспорвани?
 
-**Dependencies:** 2.3, 2.7, 7.8
+**Dependencies:** 2.3, 2.7, 7.7
 
 *Full lesson content coming soon.*
 
 ---
 
-## 7.10  Neuroception, Social Engagement and Evidence Limits
+## 7.9  Neuroception, Social Engagement and Deb Dana’s State Maps: Evidence and Limits
 
-**Core concept:** Хипотези за несъзнавана оценка и социално ангажиране
+**Core concept:** Хипотези за социално ангажиране и ограничения на приложните карти на състояния
 
-**Guiding question:** Как се оценяват тези хипотези без да се приемат за установен механизъм?
+**Guiding question:** Кои твърдения за neuroception, социално ангажиране и картите на Deb Dana са проверими и кои остават работни модели или метафори?
 
-**Dependencies:** 7.9, 7.1
-
-*Full lesson content coming soon.*
-
----
-
-## 7.11  Deb Dana’s State Maps as Applied Models
-
-**Core concept:** Приложни карти на състояния и граници на интерпретацията
-
-**Guiding question:** Какви практически описания могат да предложат картите и кои физиологични изводи не следват от тях?
-
-**Dependencies:** 7.9, 7.10
+**Dependencies:** 7.8, 7.1
 
 *Full lesson content coming soon.*
 

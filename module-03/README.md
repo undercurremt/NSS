@@ -49,7 +49,7 @@
 
 **Guiding question:** Как предишният опит може да промени интерпретацията на телесните сигнали?
 
-**Dependencies:** 1.14, 3.3
+**Dependencies:** 1.13, 3.3
 
 *Full lesson content coming soon.*
 
@@ -61,7 +61,7 @@
 
 **Guiding question:** Защо активирането на ноцицептивни пътища не е равнозначно на болково преживяване?
 
-**Dependencies:** 1.10, 3.2
+**Dependencies:** 1.9, 3.2
 
 *Full lesson content coming soon.*
 
@@ -73,17 +73,17 @@
 
 **Guiding question:** Как низходящата модулация, научаването и контекстът влияят на болката?
 
-**Dependencies:** 3.5, 1.14
+**Dependencies:** 3.5, 1.13
 
 *Full lesson content coming soon.*
 
 ---
 
-## 3.7  From Bodily Change to Felt Experience
+## 3.7  Bodily Signals and Subjective Experience: Connections and Limits
 
-**Core concept:** Телесни сигнали и субективно чувство
+**Core concept:** Взаимодействие на телесни сигнали и субективно преживяване
 
-**Guiding question:** Кои компоненти на телесното преживяване можем да измерим и кои остават интерпретация?
+**Guiding question:** Как телесните процеси могат да участват в преживяването, без това да предполага универсална линейна причинна връзка?
 
 **Dependencies:** 3.3, 3.4, 3.6
 

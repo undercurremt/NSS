@@ -1,9 +1,9 @@
-# Course curriculum — Master Lesson Index v1.4, concept-based (source: NS_Master_Lesson_Index_v1_4_Concept_Based_Candidate.md)
+# Course curriculum — Master Curriculum Control v1.4 FINAL (source: NS_Master_Curriculum_Control_v1_4_FINAL.md)
 # Single source of truth for module/lesson titles, core concepts, guiding questions and dependencies.
 # Edit here, then run: python tools/build.py   (sidebar and module pages are regenerated from this)
 
 course: The Nervous System — One Concept at a Time
-version: '1.4'
+version: 1.4 final
 modules:
 - number: 1
   title: 'Foundations: From Neural Organization to Adaptive Networks'
@@ -54,51 +54,45 @@ modules:
     - '1.3'
     - '1.5'
   - id: '1.8'
-    title: Cortical and Subcortical Cooperation
-    concept: Взаимодействие на кортикални и подкоркови системи
-    question: Защо сложните функции не принадлежат на една-единствена мозъчна структура?
+    title: Cortical, Subcortical and Distributed Networks
+    concept: Функционална специализация и разпределени мрежи
+    question: Как кортикални и подкоркови структури координират специализирани функции чрез взаимодействието на мрежи?
     depends:
     - '1.5'
     - '1.7'
   - id: '1.9'
-    title: Distributed Networks and Functional Specialization
-    concept: Разпределени мрежи и специализация
-    question: Как специализираните структури действат като взаимосвързани мрежи?
-    depends:
-    - '1.8'
-  - id: '1.10'
     title: Sensation, Perception and Context
     concept: Сетивно кодиране и контекстна интерпретация
     question: Как сетивните сигнали се превръщат във възприятие, зависещо и от контекста?
     depends:
     - '1.4'
-    - '1.9'
-  - id: '1.11'
+    - '1.8'
+  - id: '1.10'
     title: Body Position, Balance and Action
     concept: Проприоцептивна, вестибуларна и двигателна координация
     question: Как информацията за положението и движението на тялото подпомага действието?
     depends:
-    - '1.10'
-  - id: '1.12'
+    - '1.9'
+  - id: '1.11'
     title: Feedback, Movement and Adaptive Control
     concept: Сетивна обратна връзка и действие
     question: Как обратната връзка позволява непрекъснато коригиране на поведението?
     depends:
     - '1.5'
-    - '1.11'
-  - id: '1.13'
+    - '1.10'
+  - id: '1.12'
     title: 'Neuroplasticity: How Experience Changes Circuits'
     concept: Пластичност на невронните вериги
     question: Как опитът и активността променят функционалните връзки?
     depends:
     - '1.5'
-    - '1.12'
-  - id: '1.14'
+    - '1.11'
+  - id: '1.13'
     title: Learning, Memory and Generalization
     concept: Учене, памет и пренос на наученото
     question: Какво отличава научаването, запаметяването и прилагането в нов контекст?
     depends:
-    - '1.13'
+    - '1.12'
 - number: 2
   title: Physiological Regulation and Brain–Body Communication
   theme: Физиологична регулация и комуникация мозък–тяло
@@ -138,17 +132,17 @@ modules:
     - '2.3'
   - id: '2.6'
     title: Hypothalamus and Integrated Body Regulation
-    concept: Хипоталамична координация
-    question: Как хипоталамусът координира автономни, ендокринни и поведенчески процеси?
+    concept: Хипоталамична координация на автономни, хормонални и поведенчески функции
+    question: Как хипоталамусът съгласува автономни, хормонални и мотивационни отговори според физиологичните потребности?
     depends:
     - '1.8'
     - '2.5'
   - id: '2.7'
     title: The Central Autonomic Network
-    concept: Разпределен централен автономен контрол
-    question: Как мозъчни мрежи участват в контекстно зависима висцерална регулация?
+    concept: Разпределени мозъчни влияния върху висцералните реакции
+    question: Как разпределените мозъчни мрежи модулират автономните отговори според контекста отвъд хипоталамичната координация?
     depends:
-    - '1.9'
+    - '1.8'
     - '2.5'
     - '2.6'
   - id: '2.8'
@@ -232,7 +226,7 @@ modules:
     question: Как сънят и неговата организация влияят върху познанието и физиологичната регулация?
     depends:
     - '2.18'
-    - '1.14'
+    - '1.13'
   - id: '2.20'
     title: Brain–Immune Signaling and Sickness Behavior
     concept: Двупосочна невроимунна комуникация
@@ -269,14 +263,14 @@ modules:
     concept: Взаимодействие на очакване и входящ сигнал
     question: Как предишният опит може да промени интерпретацията на телесните сигнали?
     depends:
-    - '1.14'
+    - '1.13'
     - '3.3'
   - id: '3.5'
     title: Nociception Is Not Pain
     concept: Разграничаване на ноцицепция и болка
     question: Защо активирането на ноцицептивни пътища не е равнозначно на болково преживяване?
     depends:
-    - '1.10'
+    - '1.9'
     - '3.2'
   - id: '3.6'
     title: Pain, Modulation and Context
@@ -284,11 +278,11 @@ modules:
     question: Как низходящата модулация, научаването и контекстът влияят на болката?
     depends:
     - '3.5'
-    - '1.14'
+    - '1.13'
   - id: '3.7'
-    title: From Bodily Change to Felt Experience
-    concept: Телесни сигнали и субективно чувство
-    question: Кои компоненти на телесното преживяване можем да измерим и кои остават интерпретация?
+    title: 'Bodily Signals and Subjective Experience: Connections and Limits'
+    concept: Взаимодействие на телесни сигнали и субективно преживяване
+    question: Как телесните процеси могат да участват в преживяването, без това да предполага универсална линейна причинна връзка?
     depends:
     - '3.3'
     - '3.4'
@@ -303,7 +297,7 @@ modules:
     question: Какво е общото и различното между афективен процес, емоционална реакция и съзнателно чувство?
     depends:
     - '3.7'
-    - '1.9'
+    - '1.8'
   - id: '4.2'
     title: Valence and Arousal
     concept: Измерения на афективното преживяване
@@ -315,7 +309,7 @@ modules:
     concept: Мотивация, удоволствие и научаване за награда
     question: Защо желанието, удоволствието и научаването за награда не са едно и също?
     depends:
-    - '1.14'
+    - '1.13'
     - '4.1'
   - id: '4.4'
     title: Defensive and Appetitive Motivation
@@ -329,7 +323,7 @@ modules:
     concept: Асоциативно емоционално учене
     question: Как неутрални сигнали придобиват емоционално значение чрез опит?
     depends:
-    - '1.14'
+    - '1.13'
     - '4.1'
   - id: '4.6'
     title: Threat Learning and Defensive Circuits
@@ -351,7 +345,7 @@ modules:
     question: Защо отслабването на научена реакция не означава непременно изтриване на паметта?
     depends:
     - '4.6'
-    - '1.14'
+    - '1.13'
   - id: '4.9'
     title: Cognitive Reappraisal and Emotion Regulation
     concept: Когнитивна преоценка
@@ -364,22 +358,16 @@ modules:
     concept: Навици и автоматизирано действие
     question: Как повторението и подкреплението променят контрола върху действията?
     depends:
-    - '1.14'
+    - '1.13'
     - '4.7'
   - id: '4.11'
-    title: Comparative Affective Neuroscience
-    concept: Възможности и граници на животинските модели
-    question: Какво позволяват и какво не позволяват заключенията от изследвания на афективно поведение при животни?
+    title: Comparative Affective Neuroscience and Panksepp’s Framework
+    concept: Сравнителни афективни механизми и ограничения на модела на Panksepp
+    question: Какво показват експериментите с животни за афективните процеси и докъде се простират изводите от модела на Panksepp?
     depends:
     - '4.1'
     - '4.4'
   - id: '4.12'
-    title: Panksepp’s Primary-Process Framework
-    concept: Първични афективни системи като научен модел
-    question: Кои твърдения на Panksepp имат експериментална основа и кои са теоретични интерпретации?
-    depends:
-    - '4.11'
-  - id: '4.13'
     title: Competing Accounts of Emotion
     concept: Съпоставка на Damasio, LeDoux и Barrett
     question: Какви различни проверими предсказания правят водещите обяснения на емоциите?
@@ -387,12 +375,12 @@ modules:
     - '4.1'
     - '3.7'
     - '4.11'
-  - id: '4.14'
+  - id: '4.13'
     title: Conscious Feelings and Limits of Neural Inference
     concept: Граници на изводите за съзнателното преживяване
     question: Какво могат и какво не могат да установят невронните корелати на съзнателните чувства?
     depends:
-    - '4.13'
+    - '4.12'
 - number: 5
   title: Development, Relationships and Self-Regulation
   theme: Развитие, отношения и саморегулация
@@ -403,14 +391,14 @@ modules:
     question: Как възникват нервни клетки, структури и първични връзки преди раждането?
     depends:
     - '1.2'
-    - '1.9'
+    - '1.8'
   - id: '5.2'
     title: Prenatal Activity and Emerging Circuits
     concept: Ранна активност и формиране на мрежи
     question: Как спонтанната и предизвикана активност участват в организацията на ранните вериги?
     depends:
     - '5.1'
-    - '1.13'
+    - '1.12'
   - id: '5.3'
     title: Genes, Environment and Developmental Variation
     concept: Взаимодействие между биологично съзряване и среда
@@ -424,7 +412,7 @@ modules:
     question: Как двигателният и сетивният опит взаимодействат със съзряването на нервните мрежи?
     depends:
     - '5.2'
-    - '1.11'
+    - '1.10'
   - id: '5.5'
     title: Early Reflexes as Developmental Phenomena
     concept: Нормални ранни рефлекси и техните граници
@@ -438,7 +426,7 @@ modules:
     question: Как обратната връзка и съзряването подпомагат постурата и целенасочените движения?
     depends:
     - '5.4'
-    - '1.12'
+    - '1.11'
   - id: '5.7'
     title: Sensitive Periods and Individual Trajectories
     concept: Чувствителни периоди и разнообразие в развитието
@@ -485,7 +473,7 @@ modules:
     question: Как вниманието и инхибиторният контрол подпомагат постепенното развитие на саморегулацията?
     depends:
     - '5.12'
-    - '1.14'
+    - '1.13'
   - id: '5.14'
     title: From Co-Regulation to Self-Regulation
     concept: Развойни механизми на саморегулацията
@@ -504,7 +492,7 @@ modules:
     concept: Промени и адаптация през зрелостта
     question: Как ученето и компенсаторните механизми продължават да действат с възрастта?
     depends:
-    - '1.13'
+    - '1.12'
     - '5.15'
 - number: 6
   title: Threat, Stress, Defense and Recovery
@@ -523,7 +511,7 @@ modules:
     concept: Ориентиране и бдителност
     question: Как значимите сигнали променят вниманието и подготовката за действие?
     depends:
-    - '1.10'
+    - '1.9'
     - '6.1'
   - id: '6.3'
     title: 'Active Defense: Avoidance, Escape and Confrontation'
@@ -550,7 +538,7 @@ modules:
     concept: Стресово обусловени промени в реактивността
     question: Как опитът може да води до сенситизация, хабитуация или промени в научаването?
     depends:
-    - '1.13'
+    - '1.12'
     - '6.5'
     - '4.5'
   - id: '6.7'
@@ -592,45 +580,39 @@ modules:
     concept: Социално възприятие и комуникация
     question: Как лица, глас и поведение дават социална информация, зависеща от контекста?
     depends:
-    - '1.10'
+    - '1.9'
     - '4.1'
   - id: '7.2'
-    title: Social Support and Physiological Responses
-    concept: Социална подкрепа и телесни реакции
-    question: Как присъствието и поведението на други хора могат да променят физиологичните реакции?
+    title: Social Support, Physiological Responses and Interpersonal Synchrony
+    concept: Социална подкрепа и граници на физиологичната синхронизация
+    question: Как присъствието на другите влияе върху физиологичните реакции и защо синхронността не доказва сама по себе си безопасност или качество на връзката?
     depends:
     - '5.10'
     - '6.1'
     - '7.1'
   - id: '7.3'
-    title: 'Interpersonal Synchrony: Meaning and Limits'
-    concept: Синхронизация и нейната интерпретация
-    question: Защо синхронните сигнали не доказват автоматично положителна връзка или безопасност?
-    depends:
-    - '7.2'
-  - id: '7.4'
     title: Social Context, Culture and Regulation
     concept: Социално-културни влияния
     question: Как средата и нормите променят регулаторните възможности и поведението?
     depends:
     - '7.2'
     - '5.14'
-  - id: '7.5'
+  - id: '7.4'
     title: Value, Affect and Decision-Making
     concept: Оценка на алтернативи
     question: Как мотивацията, афектът и несигурността влияят на избора?
     depends:
     - '4.3'
     - '4.9'
-    - '7.4'
-  - id: '7.6'
+    - '7.3'
+  - id: '7.5'
     title: Behavioral Flexibility and Changing Habits
     concept: Промяна на избор и автоматизирани реакции
     question: Как човек променя стратегия или навик при нова информация?
     depends:
     - '4.10'
-    - '7.5'
-  - id: '7.7'
+    - '7.4'
+  - id: '7.6'
     title: Measuring Autonomic Responses Without Mind-Reading
     concept: Интерпретация на физиологични измервания
     question: Защо пулс, кожна проводимост и дишане не са еднозначни етикети за психологическо състояние?
@@ -638,47 +620,40 @@ modules:
     - '2.15'
     - '3.3'
     - '6.1'
-  - id: '7.8'
+  - id: '7.7'
     title: HRV, RSA and Their Interpretive Limits
     concept: Вариабилност на сърдечния ритъм и респираторна синусова аритмия
     question: Какво отразяват HRV и RSA и какво не можем да заключим само от тях?
     depends:
     - '2.11'
     - '2.15'
-    - '7.7'
-  - id: '7.9'
+    - '7.6'
+  - id: '7.8'
     title: 'Polyvagal Theory: Claims and Physiological Tests'
     concept: Проверими твърдения на поливагалната теория
     question: Кои твърдения на поливагалната теория са съвместими с физиологията и кои са оспорвани?
     depends:
     - '2.3'
     - '2.7'
+    - '7.7'
+  - id: '7.9'
+    title: 'Neuroception, Social Engagement and Deb Dana’s State Maps: Evidence and Limits'
+    concept: Хипотези за социално ангажиране и ограничения на приложните карти на състояния
+    question: Кои твърдения за neuroception, социално ангажиране и картите на Deb Dana са проверими и кои остават работни модели или метафори?
+    depends:
     - '7.8'
-  - id: '7.10'
-    title: Neuroception, Social Engagement and Evidence Limits
-    concept: Хипотези за несъзнавана оценка и социално ангажиране
-    question: Как се оценяват тези хипотези без да се приемат за установен механизъм?
-    depends:
-    - '7.9'
     - '7.1'
-  - id: '7.11'
-    title: Deb Dana’s State Maps as Applied Models
-    concept: Приложни карти на състояния и граници на интерпретацията
-    question: Какви практически описания могат да предложат картите и кои физиологични изводи не следват от тях?
-    depends:
-    - '7.9'
-    - '7.10'
 - number: 8
   title: Evidence-Based Regulation in Specific States
   theme: Доказателствено обоснована регулация при конкретни състояния
   lessons:
   - id: '8.1'
     title: Mechanism, Outcome and Quality of Evidence
-    concept: Разграничаване на механизъм, ефект и качество на доказателствата
-    question: Защо биологично правдоподобно обяснение не доказва, че една практика помага?
+    concept: Разлика между биологичен механизъм, измерим резултат и ефективност
+    question: Как установяваме дали подходът помага при конкретно състояние, за кого и с каква сигурност, независимо от правдоподобния му механизъм?
     depends:
+    - '7.6'
     - '7.7'
-    - '7.8'
     - '6.10'
   - id: '8.2'
     title: 'Elevated Arousal: What Can Breathing Change?'
@@ -720,7 +695,7 @@ modules:
     concept: Мускулна релаксация, движение и натоварване
     question: Кога движението и методите за отпускане повлияват телесното напрежение и субективния стрес?
     depends:
-    - '1.12'
+    - '1.11'
     - '6.1'
     - '8.1'
   - id: '8.7'
@@ -749,9 +724,9 @@ modules:
     - '2.19'
     - '8.1'
   - id: '8.10'
-    title: 'Freezing, Shutdown and Action: Avoiding False Equivalence'
-    concept: Граници на практическите твърдения за блокиране и неподвижност
-    question: Какви подходи могат да се обсъждат без да наричаме всички форми на блокиране един и същ автономен режим?
+    title: 'Behavioral Immobility and Difficulties Initiating Action: Evidence and Limits'
+    concept: Разграничаване на защитна неподвижност, дисоциация и трудности при започване на действие
+    question: Кои механизми и подходи са изследвани при различни форми на неподвижност или поведенческо блокиране и къде липсват надеждни данни?
     depends:
     - '6.4'
     - '6.9'
@@ -763,7 +738,7 @@ modules:
     depends:
     - '5.10'
     - '5.14'
-    - '7.4'
+    - '7.3'
     - '8.1'
   - id: '8.12'
     title: Social Support and Regulation in Adults
@@ -771,7 +746,7 @@ modules:
     question: При кои условия социалната подкрепа подпомага възстановяването и адаптивното поведение?
     depends:
     - '7.2'
-    - '7.4'
+    - '7.3'
     - '8.1'
   - id: '8.13'
     title: Body Awareness and Interoceptive Practices
@@ -786,28 +761,21 @@ modules:
     concept: Контекстен избор и безопасност
     question: Как да сравняваме подходите спрямо цел, доказателства, индивидуални различия и потенциални рискове?
     depends:
+    - '8.1'
     - '8.2'
     - '8.3'
-    - '8.4'
     - '8.5'
-    - '8.6'
-    - '8.7'
-    - '8.8'
-    - '8.9'
-    - '8.10'
     - '8.11'
-    - '8.12'
     - '8.13'
   - id: '8.15'
     title: 'From Cells to Behavior: An Integrated Case'
     concept: Многостепенен синтез и граници на интерпретацията
     question: Как да обясним реална човешка реакция без да я свеждаме до един нерв, хормон или модел?
     depends:
-    - '1.14'
+    - '1.13'
     - '2.9'
     - '3.7'
-    - '4.14'
+    - '4.1'
     - '5.14'
     - '6.10'
-    - '7.11'
     - '8.14'

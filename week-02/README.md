@@ -4,13 +4,12 @@
 
 ---
 
-## 2.1  Membranes, Ion Gradients and Cellular Energy
+## [2.1 Membranes, Ion Gradients and Cellular Energy](lesson_2_1_membranes_ion_gradients_and_cellular_energy.md)
 
 **Core concept:** Електрохимични градиенти и енергийни потребности
 
 **Guiding question:** Как клетките поддържат условията, необходими за нервна сигнализация?
 
-*Full lesson content coming soon.*
 
 ---
 

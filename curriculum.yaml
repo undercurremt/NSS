@@ -1,0 +1,903 @@
+# Course curriculum — single source of truth for titles, core concepts and guiding questions.
+# Edit here, then run: python tools/build.py   (sidebar and week pages are regenerated from this)
+
+course: The Nervous System — One Concept at a Time
+parts:
+- number: 1
+  title: Neurobiological Foundations
+  weeks:
+  - number: 1
+    title: Organisation of the Nervous System
+    lessons:
+    - id: '1.1'
+      title: What Is the Nervous System?
+      concept: Функционална организация
+      question: Как нервната система участва в координацията на организма?
+    - id: '1.2'
+      title: The Cells of the Nervous System
+      concept: Клетъчна специализация
+      question: Как невроните и глията правят възможно нервното функциониране?
+    - id: '1.3'
+      title: Central and Peripheral Nervous Systems
+      concept: Анатомична организация
+      question: Как са организирани ЦНС и ПНС и как взаимодействат?
+    - id: '1.4'
+      title: Afferent and Efferent Pathways
+      concept: Посока на сигнализацията
+      question: Как информацията достига до ЦНС и как от нея се организират реакции?
+    - id: '1.5'
+      title: Neural Circuits and Functional Integration
+      concept: Невронни вериги
+      question: Как невронните вериги координират информацията в организирани реакции?
+  - number: 2
+    title: Cellular Physiology & Neural Signalling
+    lessons:
+    - id: '2.1'
+      title: Membranes, Ion Gradients and Cellular Energy
+      concept: Електрохимични градиенти и енергийни потребности
+      question: Как клетките поддържат условията, необходими за нервна сигнализация?
+    - id: '2.2'
+      title: Resting Membrane Potential
+      concept: Мембранен потенциал
+      question: Как възниква и се поддържа потенциалът на покой?
+    - id: '2.3'
+      title: Action Potentials and Axonal Conduction
+      concept: Електрическа възбудимост
+      question: Как се генерират и провеждат потенциалите на действие?
+    - id: '2.4'
+      title: Synaptic Transmission
+      concept: Синаптична комуникация
+      question: Как сигналът от един неврон променя активността на друга клетка?
+    - id: '2.5'
+      title: Neurotransmitters, Receptors and Synaptic Integration
+      concept: Възбуждане, инхибиране и модулация
+      question: Как различните рецептори и входящи сигнали определят невронния отговор?
+  - number: 3
+    title: Functional Neuroanatomy
+    lessons:
+    - id: '3.1'
+      title: Brainstem and Spinal Cord
+      concept: Мозъчностволова и спинална организация
+      question: Как мозъчният ствол и гръбначният мозък участват в основните нервни функции?
+    - id: '3.2'
+      title: Thalamus and Hypothalamus
+      concept: Подкорова интеграция
+      question: Какви различни функции изпълняват таламусът и хипоталамусът?
+    - id: '3.3'
+      title: Basal Ganglia and Cerebellum
+      concept: Подбор, координация и адаптация на действията
+      question: Как базалните ганглии и малкият мозък участват в контрола на поведението?
+    - id: '3.4'
+      title: Cerebral Cortex and Functional Specialization
+      concept: Кортикална организация
+      question: Как мозъчната кора поддържа специализирани и взаимосвързани функции?
+    - id: '3.5'
+      title: Distributed Brain Networks and Neurovascular Support
+      concept: Мрежова организация и мозъчно кръвоснабдяване
+      question: Как мозъчните мрежи функционират при постоянни енергийни и съдови ограничения?
+  - number: 4
+    title: Somatosensory & Motor Organisation
+    lessons:
+    - id: '4.1'
+      title: Sensory Transduction and Neural Coding
+      concept: Сетивна трансдукция
+      question: Как физичните стимули се преобразуват в нервна информация?
+    - id: '4.2'
+      title: Somatosensation and Proprioception
+      concept: Телесна сетивност
+      question: Как нервната система регистрира допир, положение и движение на тялото?
+    - id: '4.3'
+      title: Vestibular Signaling and Spatial Orientation
+      concept: Вестибуларна сигнализация
+      question: Как нервната система открива движението и ориентацията на главата?
+    - id: '4.4'
+      title: Motor Pathways and Neuromuscular Control
+      concept: Двигателен контрол
+      question: Как нервната активност се превръща в мускулно действие?
+    - id: '4.5'
+      title: Spinal Reflexes and Postural Coordination
+      concept: Рефлексна и постурална организация
+      question: Как спиналните вериги и сетивната обратна връзка участват в стабилизирането на тялото?
+  - number: 5
+    title: Specialised Sensory Systems & Perception
+    lessons:
+    - id: '5.1'
+      title: Visual Transduction and Visual Pathways
+      concept: Зрителна система
+      question: Как светлината се преобразува в нервни сигнали и достига зрителните мозъчни области?
+    - id: '5.2'
+      title: Auditory Transduction and Sound Processing
+      concept: Слухова система
+      question: Как звуковите вибрации се преобразуват в нервна информация и се обработват?
+    - id: '5.3'
+      title: Olfaction and Gustation
+      concept: Обоняние и вкус
+      question: Как химичните стимули се разпознават и интегрират в нервната система?
+    - id: '5.4'
+      title: Multisensory Integration
+      concept: Мултисензорна обработка
+      question: Как мозъкът комбинира информация от различни сетивни модалности?
+    - id: '5.5'
+      title: From Sensation to Perception
+      concept: Сетивност и възприятие
+      question: Защо възприятието не представлява просто пасивно копие на сетивните сигнали?
+  - number: 6
+    title: Neuroplasticity, Learning & Memory
+    lessons:
+    - id: '6.1'
+      title: Synaptic Plasticity
+      concept: Синаптична пластичност
+      question: Как активността променя ефективността на синаптичните връзки?
+    - id: '6.2'
+      title: Experience-Dependent Circuit Plasticity
+      concept: Зависима от опита промяна
+      question: Как опитът променя организацията и функцията на невронните вериги?
+    - id: '6.3'
+      title: Associative and Non-Associative Learning
+      concept: Основни механизми на учене
+      question: Как опитът води до трайни промени в реакциите?
+    - id: '6.4'
+      title: Memory Systems and Consolidation
+      concept: Памет и консолидация
+      question: Как различните системи участват във формирането и стабилизирането на паметта?
+    - id: '6.5'
+      title: Genetic Regulation, Experience and Plasticity
+      concept: Генна експресия и взаимодействие ген–среда
+      question: Как генетичните механизми, регулацията на генната експресия и опитът взаимодействат при невронната пластичност?
+- number: 2
+  title: Physiological Regulation & Brain–Body
+  weeks:
+  - number: 7
+    title: Autonomic Nervous System
+    lessons:
+    - id: '7.1'
+      title: Autonomic and Somatic Organization
+      concept: Автономни и соматични пътища
+      question: Как автономната регулация се различава от соматичния двигателен контрол?
+    - id: '7.2'
+      title: Sympathetic Pathways and Organ Effects
+      concept: Симпатикова организация
+      question: Как симпатиковите пътища влияят върху различни органи?
+    - id: '7.3'
+      title: Parasympathetic Pathways and Organ Effects
+      concept: Парасимпатикова организация
+      question: Как парасимпатиковите пътища регулират органните функции?
+    - id: '7.4'
+      title: Autonomic Neurotransmission and Receptors
+      concept: Автономна неврохимия
+      question: Как невротрансмитерите и рецепторите определят специфичните органни ефекти?
+    - id: '7.5'
+      title: Enteric Neural Circuits
+      concept: Ентерална нервна система
+      question: Как чревните невронни мрежи координират храносмилането и взаимодействат с външната инервация?
+  - number: 8
+    title: Central Autonomic Regulation
+    lessons:
+    - id: '8.1'
+      title: Visceral Afferent Pathways
+      concept: Висцерална аферентация
+      question: Как физиологичните сигнали от органите достигат централните регулаторни структури?
+    - id: '8.2'
+      title: Brainstem Autonomic Nuclei
+      concept: Мозъчностволов автономен контрол
+      question: Как NTS, nucleus ambiguus и dorsal motor nucleus участват в автономните функции?
+    - id: '8.3'
+      title: Hypothalamic Integration
+      concept: Хипоталамична регулация
+      question: Как хипоталамусът координира автономни, ендокринни и поведенчески реакции?
+    - id: '8.4'
+      title: Cortical and Subcortical Autonomic Modulation
+      concept: Низходящ автономен контрол
+      question: Как кортикалните и подкорковите структури влияят върху висцералната регулация?
+    - id: '8.5'
+      title: The Central Autonomic Network
+      concept: Разпределена автономна организация
+      question: Как взаимодействието между централните структури координира автономните реакции?
+  - number: 9
+    title: Cardiorespiratory Physiology
+    lessons:
+    - id: '9.1'
+      title: Cardiac Pacemaking and Autonomic Control
+      concept: Сърдечен ритъм
+      question: Как пейсмейкърната активност и автономните влияния определят сърдечната честота?
+    - id: '9.2'
+      title: Blood Pressure and Baroreflex Regulation
+      concept: Барорефлекс
+      question: Как нервната система открива и компенсира краткосрочни промени в кръвното налягане?
+    - id: '9.3'
+      title: Respiratory Mechanics and Gas Exchange
+      concept: Вентилация и газообмен
+      question: Как дишането осигурява обмена на кислород и въглероден диоксид?
+    - id: '9.4'
+      title: Neural and Chemical Control of Breathing
+      concept: Дихателен контрол
+      question: Как невронните генератори на дихателния ритъм и хеморецепторите регулират вентилацията?
+    - id: '9.5'
+      title: Cardiorespiratory Interactions
+      concept: Сърдечно-дихателна координация
+      question: Как дишането, барорефлексът и автономните влияния взаимодействат?
+  - number: 10
+    title: Homeostasis, Allostasis & Energy Regulation
+    lessons:
+    - id: '10.1'
+      title: Homeostatic Regulation
+      concept: Хомеостаза
+      question: Как организмът поддържа физиологичните параметри в жизнеспособни граници?
+    - id: '10.2'
+      title: Feedback and Anticipatory Control
+      concept: Обратна връзка и предвиждащ контрол
+      question: Как реактивните и предвиждащите механизми допринасят за регулацията?
+    - id: '10.3'
+      title: Allostasis as a Regulatory Framework
+      concept: Алостаза
+      question: Какво добавя концепцията за алостаза към разбирането за физиологична регулация?
+    - id: '10.4'
+      title: Energy Balance, Hunger and Satiety
+      concept: Енергийни потребности
+      question: Как невронните и хормоналните механизми координират приема и използването на енергия?
+    - id: '10.5'
+      title: Regulation Across Physiological Contexts
+      concept: Контекстна адаптация
+      question: Защо оптималната физиологична реакция зависи от активността, средата и потребностите?
+  - number: 11
+    title: Interoception
+    lessons:
+    - id: '11.1'
+      title: Defining Interoception
+      concept: Интероцептивен домейн
+      question: Какво представлява интероцепцията и къде са границите на понятието?
+    - id: '11.2'
+      title: Visceral Receptors and Interoceptive Pathways
+      concept: Висцерална сетивна сигнализация
+      question: Как вътрешните физиологични промени се регистрират и предават?
+    - id: '11.3'
+      title: Central Interoceptive Processing
+      concept: Мозъчна обработка на телесни сигнали
+      question: Как централните мрежи интегрират информацията за вътрешното състояние?
+    - id: '11.4'
+      title: Interoceptive Accuracy, Attention and Beliefs
+      concept: Интероцептивни измерения
+      question: Как се различават точността, вниманието и убежденията за собствените телесни усещания?
+    - id: '11.5'
+      title: Prediction and Interoceptive Experience
+      concept: Предвиждане и телесно възприятие
+      question: Как очакванията и входящите сигнали взаимодействат при интероцептивното преживяване?
+  - number: 12
+    title: Nociception & Pain
+    lessons:
+    - id: '12.1'
+      title: Nociceptors and Nociceptive Transduction
+      concept: Ноцицептивни рецептори
+      question: Как потенциално увреждащи стимули активират ноцицептивните системи?
+    - id: '12.2'
+      title: Spinal Processing and Ascending Pathways
+      concept: Ноцицептивно предаване
+      question: Как ноцицептивните сигнали се обработват в гръбначния мозък и достигат мозъка?
+    - id: '12.3'
+      title: Pain as a Multidimensional Experience
+      concept: Болково преживяване
+      question: Защо болката не е идентична с ноцицепцията или тъканното увреждане?
+    - id: '12.4'
+      title: Descending Pain Modulation
+      concept: Централна модулация
+      question: Как мозъчните системи могат да потискат или усилват ноцицептивното предаване?
+    - id: '12.5'
+      title: Sensitization, Learning and Pain Context
+      concept: Сенситизация и контекст
+      question: Как пластичността, очакванията и опитът могат да влияят върху болката?
+  - number: 13
+    title: Neuroendocrine Regulation
+    lessons:
+    - id: '13.1'
+      title: Neuroendocrine Communication
+      concept: Нервно-хормонална сигнализация
+      question: Как нервната система координира ендокринните функции?
+    - id: '13.2'
+      title: Hypothalamic–Pituitary Organization
+      concept: Хипоталамо-хипофизна регулация
+      question: Как са организирани основните невроендокринни контролни пътища?
+    - id: '13.3'
+      title: The HPA Axis
+      concept: HPA регулация
+      question: Как се активира и регулира хипоталамо-хипофизо-надбъбречната ос?
+    - id: '13.4'
+      title: Sympathoadrenal and Endocrine Responses
+      concept: Симпатоадренална реакция
+      question: Как се координират бързите автономни и хормонални реакции при натоварване?
+    - id: '13.5'
+      title: Hormonal Feedback and Physiological Adaptation
+      concept: Ендокринна обратна връзка
+      question: Как хормоналната сигнализация се регулира във времето и се адаптира към физиологичните условия?
+  - number: 14
+    title: Neurobiology of Sleep & Circadian Rhythms
+    lessons:
+    - id: '14.1'
+      title: Circadian Clocks and Biological Timing
+      concept: Циркадна организация
+      question: Как супрахиазматичното ядро и периферните часовници координират биологичните ритми?
+    - id: '14.2'
+      title: Sleep Homeostasis and Sleep Pressure
+      concept: Хомеостатичен натиск за сън
+      question: Как се променя потребността от сън в зависимост от времето на бодърстване и предишния сън?
+    - id: '14.3'
+      title: Neural Circuits of Sleep and Wakefulness
+      concept: Невронен контрол на съня
+      question: Как мозъчните мрежи регулират преходите между бодърстване и сън?
+    - id: '14.4'
+      title: NREM, REM and Sleep Architecture
+      concept: Сънни стадии
+      question: Как се различават NREM и REM сънят по мозъчна и физиологична активност?
+    - id: '14.5'
+      title: Sleep, Memory and Physiological Regulation
+      concept: Функции и последствия на съня
+      question: Как сънят и неговото нарушаване влияят върху паметта, метаболизма и регулацията?
+  - number: 15
+    title: Neuroimmune Communication
+    lessons:
+    - id: '15.1'
+      title: Routes of Brain–Immune Communication
+      concept: Невроимунни комуникационни пътища
+      question: По какви нервни, хуморални и клетъчни пътища мозъкът и имунната система взаимодействат?
+    - id: '15.2'
+      title: Cytokine Signaling and Brain Function
+      concept: Цитокинова сигнализация
+      question: Как имунните медиатори могат да влияят върху мозъчната функция?
+    - id: '15.3'
+      title: Microglia and Neuroinflammatory Processes
+      concept: Микроглиална и възпалителна активност
+      question: Как клетките на ЦНС участват в имунните и възпалителните процеси?
+    - id: '15.4'
+      title: Sickness Behavior and Gut–Brain–Immune Interactions
+      concept: Имунно обусловено поведение
+      question: Как имунните сигнали и комуникацията черва–мозък могат да влияят върху поведението?
+    - id: '15.5'
+      title: Neural Modulation of Immune Responses
+      concept: Невронно-имунна регулация
+      question: Как автономните и централните механизми могат да модулират имунната активност?
+- number: 3
+  title: Autonomic Dynamics & Polyvagal Models
+  weeks:
+  - number: 16
+    title: Physiological Measurements
+    lessons:
+    - id: '16.1'
+      title: Physiological Measurement and Interpretation
+      concept: Измерване и причинен извод
+      question: Какво можем и какво не можем да заключим от периферни физиологични показатели?
+    - id: '16.2'
+      title: Heart Rate Variability
+      concept: HRV
+      question: Как се измерва вариабилността на сърдечната честота и от какво зависи?
+    - id: '16.3'
+      title: Respiratory Sinus Arrhythmia
+      concept: RSA
+      question: Как възниква RSA и при какви условия отразява сърдечни вагални влияния?
+    - id: '16.4'
+      title: Electrodermal and Respiratory Measurements
+      concept: Електродермални и респираторни показатели
+      question: Какви процеси отразяват кожната проводимост и дихателните измервания?
+    - id: '16.5'
+      title: Reactivity, Recovery and Measurement Validity
+      concept: Физиологична динамика и валидност
+      question: Как се разграничават базово ниво, реактивност, възстановяване и измервателни артефакти?
+  - number: 17
+    title: Stephen Porges & Polyvagal Theory
+    lessons:
+    - id: '17.1'
+      title: Origins and Scope of Polyvagal Theory
+      concept: Произход и обхват на теорията
+      question: Кои явления се опитва да обясни поливагалната теория?
+    - id: '17.2'
+      title: The Proposed Vagal Hierarchy
+      concept: Предложена вагална йерархия
+      question: Какви анатомични и еволюционни твърдения съдържа поливагалната йерархия?
+    - id: '17.3'
+      title: Neuroception and Social Engagement Hypotheses
+      concept: Поливагални хипотези за социално поведение
+      question: Как теорията обяснява връзката между автономна регулация, безопасност и социално взаимодействие?
+    - id: '17.4'
+      title: Physiological and Evolutionary Challenges
+      concept: Научни критики
+      question: Кои ключови твърдения са оспорени от физиологични и сравнително-биологични данни?
+    - id: '17.5'
+      title: Evaluating Polyvagal Claims Against Evidence
+      concept: Оценка на отделни теоретични твърдения
+      question: Кои елементи са съвместими с установената физиология и кои остават неподкрепени или спорни?
+  - number: 18
+    title: Deb Dana & Applied Polyvagal Models
+    lessons:
+    - id: '18.1'
+      title: The Applied Polyvagal Framework
+      concept: Приложен концептуален модел
+      question: Как Deb Dana превежда поливагалните идеи в език за преживяване и поведение?
+    - id: '18.2'
+      title: Autonomic Mapping as Self-Description
+      concept: Картографиране на преживяванията
+      question: Какво може да даде субективното картографиране и какво не може да установи физиологично?
+    - id: '18.3'
+      title: Perceived Safety and Threat Cues
+      concept: Субективна оценка на контекста
+      question: Как възприятията, очакванията и опитът влияят върху реакциите към сигнали за безопасност и заплаха?
+    - id: '18.4'
+      title: Blended States and Limits of State Categories
+      concept: Смесени състояния като описателни категории
+      question: Защо човешкото поведение не може надеждно да се класифицира чрез три фиксирани автономни състояния?
+    - id: '18.5'
+      title: Testing Applied Claims and Practices
+      concept: Проверка на приложни твърдения
+      question: Как оценяваме полезността и механизмите на практиките независимо от поливагалните им обяснения?
+- number: 4
+  title: Affective Neuroscience & Emotions
+  weeks:
+  - number: 19
+    title: Affect, Motivation & Body Regulation
+    lessons:
+    - id: '19.1'
+      title: Affect, Emotion and Feeling
+      concept: Афективни разграничения
+      question: Как се различават афект, емоция и съзнателно чувство?
+    - id: '19.2'
+      title: Valence and Arousal
+      concept: Афективни измерения
+      question: Как валентността и възбудата описват различни аспекти на преживяването?
+    - id: '19.3'
+      title: Reward, Wanting and Liking
+      concept: Награда и мотивация
+      question: Защо желание, удоволствие и научаване за награда не са един и същ процес?
+    - id: '19.4'
+      title: Defensive and Appetitive Motivation
+      concept: Мотивационна организация
+      question: Как нервната система организира поведение спрямо заплахи и възможности?
+    - id: '19.5'
+      title: Interoception and Affective Experience
+      concept: Телесни сигнали и афект
+      question: Как вътрешните физиологични процеси участват в афективното преживяване?
+  - number: 20
+    title: Jaak Panksepp & Primary Emotional Systems
+    lessons:
+    - id: '20.1'
+      title: Comparative Affective Neuroscience
+      concept: Сравнителна афективна невронаука
+      question: Как животинските модели могат да информират изследването на афективните механизми?
+    - id: '20.2'
+      title: SEEKING and Exploratory Motivation
+      concept: SEEKING
+      question: Какви механизми и функции Panksepp включва в системата SEEKING?
+    - id: '20.3'
+      title: FEAR and RAGE
+      concept: Предложени защитни афективни системи
+      question: Какви експериментални резултати подкрепят или ограничават разграничението между FEAR и RAGE?
+    - id: '20.4'
+      title: CARE, PANIC/GRIEF, PLAY and LUST
+      concept: Социални и репродуктивни афективни системи
+      question: Как са описани тези системи и каква е доказателствената основа за тях?
+    - id: '20.5'
+      title: Translating Animal Findings to Human Emotion
+      concept: Междувидова интерпретация
+      question: Кои изводи от сравнителната невронаука могат обосновано да се пренасят към човека?
+  - number: 21
+    title: Emotional Learning & Regulation
+    lessons:
+    - id: '21.1'
+      title: Pavlovian Emotional Learning
+      concept: Асоциативно учене
+      question: Как стимулите придобиват афективно значение чрез опита?
+    - id: '21.2'
+      title: Threat Learning and Defensive Circuits
+      concept: Научаване за заплаха
+      question: Как мозъчните вериги придобиват и изразяват научени защитни реакции?
+    - id: '21.3'
+      title: Reward Prediction Error
+      concept: Учене за награда
+      question: Как разликата между очаквана и получена награда променя бъдещите реакции?
+    - id: '21.4'
+      title: Extinction and Contextual Inhibition
+      concept: Инхибиторно научаване
+      question: Защо угасването на научена реакция не е непременно изтриване на първоначалната памет?
+    - id: '21.5'
+      title: Cognitive Emotion Regulation
+      concept: Когнитивна регулация
+      question: Как вниманието и преоценката могат да променят емоционалните реакции?
+  - number: 22
+    title: Consciousness & Subjective Experience
+    lessons:
+    - id: '22.1'
+      title: Consciousness, Awareness and Access
+      concept: Различни понятия за съзнание
+      question: Как се разграничават съзнателно преживяване, осъзнаване и достъп до информация?
+    - id: '22.2'
+      title: Neural Correlates of Consciousness
+      concept: Невронни корелати
+      question: Как се изследват мозъчните процеси, свързани със съзнателното преживяване?
+    - id: '22.3'
+      title: Bodily Signals and Conscious Feelings
+      concept: Телесно осъзнаване
+      question: Какви обяснения свързват телесните сигнали със съзнателните чувства?
+    - id: '22.4'
+      title: Affective Processing Without Awareness
+      concept: Несъзнавана афективна обработка
+      question: Какви афективно релевантни реакции могат да възникнат без съзнателно разпознаване на стимула?
+    - id: '22.5'
+      title: Competing Neuroscientific Theories of Consciousness
+      concept: Конкуриращи се модели
+      question: Кои наблюдения различните теории за съзнанието се опитват да обяснят и как се проверяват?
+  - number: 23
+    title: Competing Theories of Emotion
+    lessons:
+    - id: '23.1'
+      title: Damasio and Somatic Contributions
+      concept: Соматични механизми
+      question: Как Damasio обяснява участието на телесните сигнали в чувствата и решенията?
+    - id: '23.2'
+      title: LeDoux and Conscious Fear
+      concept: Защитни вериги срещу съзнателен страх
+      question: Защо LeDoux разграничава защитната реакция от преживяването на страх?
+    - id: '23.3'
+      title: Barrett and Constructed Emotion
+      concept: Конструиране на емоциите
+      question: Как категоризацията, интероцепцията и контекстът участват в модела на Barrett?
+    - id: '23.4'
+      title: Appraisal and Predictive Accounts
+      concept: Оценъчни и предиктивни модели
+      question: Как когнитивната оценка и предвиждането участват в различни обяснения на емоциите?
+    - id: '23.5'
+      title: Comparing Emotion Theories
+      concept: Сравнение на обяснителни модели
+      question: Кои теории предлагат различни проверими предсказания и къде остават несъгласията?
+- number: 5
+  title: Neurodevelopment & Regulation
+  weeks:
+  - number: 24
+    title: Prenatal Neurodevelopment
+    lessons:
+    - id: '24.1'
+      title: Neurulation and Early Neural Organization
+      concept: Неврулация
+      question: Как започва формирането на централната нервна система?
+    - id: '24.2'
+      title: Neurogenesis and Cell Differentiation
+      concept: Неврогенеза
+      question: Как възникват и се специализират нервните клетки по време на развитието?
+    - id: '24.3'
+      title: Neuronal Migration and Brain Patterning
+      concept: Невронна миграция
+      question: Как клетъчната миграция и развойните сигнали организират мозъчните структури?
+    - id: '24.4'
+      title: Early Connectivity and Fetal Neural Activity
+      concept: Ранна функционална свързаност
+      question: Как се формират ранните невронни вериги и модели на активност?
+    - id: '24.5'
+      title: Prenatal Influences and Developmental Variability
+      concept: Пренатална среда и развитие
+      question: Как генетичните и средовите фактори влияят върху развитието, без да го предопределят еднозначно?
+  - number: 25
+    title: Early Postnatal Maturation
+    lessons:
+    - id: '25.1'
+      title: Postnatal Brain Growth and Maturation
+      concept: Постнатално развитие
+      question: Как се променя мозъкът през ранните години след раждането?
+    - id: '25.2'
+      title: Synaptogenesis, Pruning and Myelination
+      concept: Развойна промяна на свързаността
+      question: Как създаването, пренастройването и миелинизацията на връзките влияят върху функцията?
+    - id: '25.3'
+      title: Sensory and Multisensory Development
+      concept: Сетивно съзряване
+      question: Как се развиват сетивната обработка и мултисензорната интеграция?
+    - id: '25.4'
+      title: Motor Development and Postural Milestones
+      concept: Моторно съзряване
+      question: Как се развиват контролът на позата, придвижването и координацията?
+    - id: '25.5'
+      title: Sensitive Periods and Experience-Dependent Development
+      concept: Чувствителни периоди
+      question: Как времето на опита влияе върху невронното развитие и какви са ограниченията на това понятие?
+  - number: 26
+    title: Reflexes & Postural Development
+    lessons:
+    - id: '26.1'
+      title: Neonatal Reflexes and Neurological Assessment
+      concept: Неонатални рефлекси
+      question: Кои ранни рефлекси се използват в неврологичната оценка и какво показват?
+    - id: '26.2'
+      title: Rooting, Sucking and Feeding Coordination
+      concept: Ранна хранителна сензомоторна организация
+      question: Как рефлексните и координационните механизми подпомагат храненето на новороденото?
+    - id: '26.3'
+      title: Moro and Early Startle-Related Responses
+      concept: Moro и реакции на внезапна стимулация
+      question: Как се характеризира Moro реакцията и по какво се различава от други реакции на стряскане?
+    - id: '26.4'
+      title: Tonic Neck Responses and Postural Control
+      concept: Тонични шийни и постурални реакции
+      question: Как се описват ATNR, STNR и TLR и каква е тяхната клинична и развойна значимост?
+    - id: '26.5'
+      title: Reflex Maturation and Limits of Interpretation
+      concept: Промяна на рефлексите през развитието
+      question: Как се променят ранните реакции и какво не можем да заключим само от наличието им?
+  - number: 27
+    title: Attachment & Early Co-Regulation
+    lessons:
+    - id: '27.1'
+      title: Foundations of Attachment Theory
+      concept: Привързаност
+      question: Как теорията за привързаността обяснява търсенето на близост и подкрепа?
+    - id: '27.2'
+      title: Caregiver Sensitivity and Responsiveness
+      concept: Отзивчивост на грижещия се
+      question: Как поведението на възрастния участва в ранното социално и емоционално развитие?
+    - id: '27.3'
+      title: Early Co-Regulation
+      concept: Ранна междуличностна регулация
+      question: Как взаимодействието между възрастен и дете влияе върху поведението и физиологичните реакции?
+    - id: '27.4'
+      title: Interaction, Mismatch and Repair
+      concept: Интерактивно възстановяване
+      question: Как отношенията се развиват чрез координация, несъответствия и възстановяване на взаимодействието?
+    - id: '27.5'
+      title: Attachment and Developmental Outcomes
+      concept: Развойни траектории
+      question: Какво показват надлъжните данни за привързаността и защо тя не определя еднозначно бъдещето?
+  - number: 28
+    title: Temperament, Executive Functions & Self-Regulation
+    lessons:
+    - id: '28.1'
+      title: Temperament and Individual Variation
+      concept: Темперамент
+      question: Как се различават хората по реактивност и регулаторни тенденции?
+    - id: '28.2'
+      title: Attention and Inhibitory Control
+      concept: Контрол на вниманието и реакциите
+      question: Как вниманието и инхибиторният контрол подпомагат саморегулацията?
+    - id: '28.3'
+      title: Executive Functions
+      concept: Изпълнителни функции
+      question: Как работната памет, гъвкавостта и инхибирането участват в регулирането на поведението?
+    - id: '28.4'
+      title: Development of Self-Regulation
+      concept: Развитие на саморегулацията
+      question: Как съзряването, опитът и социалната подкрепа допринасят за регулаторните способности?
+    - id: '28.5'
+      title: Genes, Environment and Neurodevelopmental Diversity
+      concept: Индивидуални невроразвойни траектории
+      question: Как наследствеността, средата и невроразвойните различия взаимодействат?
+  - number: 29
+    title: The Nervous System Across the Lifespan
+    lessons:
+    - id: '29.1'
+      title: Adolescent Brain Development
+      concept: Юношеско развитие
+      question: Как се променят мозъчните мрежи и регулаторните способности през юношеството?
+    - id: '29.2'
+      title: Adult Neural Plasticity
+      concept: Пластичност в зряла възраст
+      question: Какви невронни и поведенчески промени остават възможни през зрелостта?
+    - id: '29.3'
+      title: Neural Aging
+      concept: Стареене на нервната система
+      question: Как стареенето влияе върху нервната сигнализация и мозъчните мрежи?
+    - id: '29.4'
+      title: Compensation and Cognitive Reserve
+      concept: Компенсаторни механизми
+      question: Как адаптацията и индивидуалните ресурси влияят върху функционирането при стареене?
+    - id: '29.5'
+      title: Lifespan Development and Individual Trajectories
+      concept: Развитие през жизнения цикъл
+      question: Защо развитието е продължителен и индивидуално вариращ процес?
+- number: 6
+  title: Stress, Protection & Adaptation
+  weeks:
+  - number: 30
+    title: Acute Stress Response & Defensive Behaviour
+    lessons:
+    - id: '30.1'
+      title: Threat Processing and Defensive Organization
+      concept: Обработка на заплаха
+      question: Как нервните вериги организират реакции към потенциална опасност?
+    - id: '30.2'
+      title: Orienting, Attention and Vigilance
+      concept: Ориентиране и бдителност
+      question: Как сетивната обработка и вниманието се променят при значими стимули?
+    - id: '30.3'
+      title: Active Defense and Action Selection
+      concept: Активна защита
+      question: Как нервната система организира избягване, бягство и противопоставяне?
+    - id: '30.4'
+      title: Freezing and Tonic Immobility
+      concept: Различни защитни реакции
+      question: По какво се различават freezing и tonic immobility и какви са ограниченията на човешките данни?
+    - id: '30.5'
+      title: Context and Defensive Flexibility
+      concept: Контекстна защитна организация
+      question: Защо защитната реакция зависи от възможностите за действие и характеристиките на ситуацията?
+  - number: 31
+    title: Chronic Stress & Adaptive Changes
+    lessons:
+    - id: '31.1'
+      title: Acute and Chronic Stress Exposure
+      concept: Продължителност на натоварването
+      question: Как краткосрочният и продължителният стрес се различават по физиологични последствия?
+    - id: '31.2'
+      title: Allostatic Load
+      concept: Натрупващо се регулаторно натоварване
+      question: Как се използва концепцията за алостатично натоварване и как се измерва?
+    - id: '31.3'
+      title: Stress-Related Neural Plasticity
+      concept: Стрес и пластичност
+      question: Как продължителният стрес може да променя невронните вериги и тяхната функция?
+    - id: '31.4'
+      title: Sensitization and Habituation
+      concept: Промени в реактивността
+      question: Защо повторяемият стрес може да засилва или отслабва реакциите?
+    - id: '31.5'
+      title: Recovery and Physiological Flexibility
+      concept: Възстановяване
+      question: Какви механизми и условия подпомагат възстановяването след натоварване?
+  - number: 32
+    title: Traumatic Stress & Dysregulation
+    lessons:
+    - id: '32.1'
+      title: Traumatic Exposure and Heterogeneous Outcomes
+      concept: Различни реакции след травматично излагане
+      question: Защо сходни събития могат да бъдат последвани от различни психологически и физиологични резултати?
+    - id: '32.2'
+      title: Threat Memory and Generalization
+      concept: Генерализация на заплаха
+      question: Как научените асоциации могат да се пренасят към нови ситуации?
+    - id: '32.3'
+      title: Avoidance and Maintenance Mechanisms
+      concept: Поддържане на избягването
+      question: Как избягването може да възпрепятства новото научаване?
+    - id: '32.4'
+      title: Dissociation and Altered Experience
+      concept: Дисоциативни явления
+      question: Как се описва дисоциацията и кои механистични обяснения остават несигурни?
+    - id: '32.5'
+      title: Recovery, Vulnerability and Resilience
+      concept: Индивидуални траектории на възстановяване
+      question: Кои фактори се свързват с различните дългосрочни резултати след травматично преживяване?
+- number: 7
+  title: Social Neuroscience & Behaviour
+  weeks:
+  - number: 33
+    title: Social Neuroscience & Interpersonal Regulation
+    lessons:
+    - id: '33.1'
+      title: Social Perception and Neural Processing
+      concept: Социално възприятие
+      question: Как мозъкът обработва лица, поглед и социално значими движения?
+    - id: '33.2'
+      title: Voice, Prosody and Communication
+      concept: Глас и просодия
+      question: Как акустичните характеристики на гласа участват в социалната комуникация?
+    - id: '33.3'
+      title: Social Support and Physiological Responses
+      concept: Социална подкрепа
+      question: Как присъствието и поведението на други хора могат да променят физиологичните реакции?
+    - id: '33.4'
+      title: Interpersonal Synchrony and Its Interpretation
+      concept: Междуличностна синхронизация
+      question: Как се измерва синхронизацията и защо тя не винаги означава положително взаимодействие?
+    - id: '33.5'
+      title: Social Context, Culture and Regulation
+      concept: Социален контекст
+      question: Как отношенията, културните норми и социалните условия влияят върху регулацията?
+  - number: 34
+    title: Prediction, Learning & Habits
+    lessons:
+    - id: '34.1'
+      title: Predictive Processing as a Theoretical Framework
+      concept: Предиктивна обработка
+      question: Как вътрешните модели могат да участват в интерпретацията на сетивната информация?
+    - id: '34.2'
+      title: Prediction Error and Model Updating
+      concept: Актуализиране на модели
+      question: Как несъответствията между очакване и резултат променят наученото?
+    - id: '34.3'
+      title: Habit Formation and Automatic Behavior
+      concept: Формиране на навици
+      question: Как действията стават по-автоматизирани чрез повторение и подкрепление?
+    - id: '34.4'
+      title: Contextual Learning and Generalization
+      concept: Контекстно учене
+      question: Защо научените реакции се пренасят към едни ситуации, но не към други?
+    - id: '34.5'
+      title: Behavioral Change Through New Learning
+      concept: Поведенческа промяна
+      question: Как новият опит и обратната връзка могат да изменят устойчиви поведенчески модели?
+  - number: 35
+    title: Motivation, Decisions & Behavioural Flexibility
+    lessons:
+    - id: '35.1'
+      title: Attention and Information Selection
+      concept: Селективно внимание
+      question: Как вниманието определя кои сигнали получават приоритет?
+    - id: '35.2'
+      title: Value-Based Decision Making
+      concept: Оценяване на алтернативи
+      question: Как очакваните ползи, разходи и несигурността влияят върху избора?
+    - id: '35.3'
+      title: Affect and Decision Making
+      concept: Афективни влияния върху решенията
+      question: Как емоционалните и телесните процеси могат да влияят върху оценката на алтернативите?
+    - id: '35.4'
+      title: Cognitive Flexibility and Control
+      concept: Поведенческа гъвкавост
+      question: Как човек променя стратегията си при нови цели или условия?
+    - id: '35.5'
+      title: Adaptive Behavior in Complex Contexts
+      concept: Многофакторна адаптация
+      question: Как физиология, мотивация, научаване и социален контекст взаимодействат при реални решения?
+- number: 8
+  title: Integration & Application
+  weeks:
+  - number: 36
+    title: Physiological Mechanisms of Practices
+    lessons:
+    - id: '36.1'
+      title: Breathing-Based Physiological Interventions
+      concept: Дихателни механизми
+      question: Как целенасочената промяна на дишането може да влияе върху физиологията и кои механизми са доказани?
+    - id: '36.2'
+      title: Movement and Exercise-Based Regulation
+      concept: Двигателни и метаболитни механизми
+      question: Как движението и физическата активност влияят върху автономните и невронните процеси?
+    - id: '36.3'
+      title: Attention and Interoceptive Practices
+      concept: Внимание и телесно възприятие
+      question: Как насочването на вниманието може да промени възприемането на телесните сигнали?
+    - id: '36.4'
+      title: Sensory and Environmental Modulation
+      concept: Сетивни и средови влияния
+      question: Как светлина, звук, температура и други стимули влияят върху физиологичната регулация?
+    - id: '36.5'
+      title: Social and Behavioral Regulation Strategies
+      concept: Междуличностни и поведенчески механизми
+      question: Как социалната подкрепа и промяната на поведението могат да повлияят върху адаптивните реакции?
+  - number: 37
+    title: Efficacy, Safety & Individual Differences
+    lessons:
+    - id: '37.1'
+      title: Mechanism Versus Intervention Effectiveness
+      concept: Механистична правдоподобност и ефективност
+      question: Защо реалният физиологичен механизъм не доказва сам по себе си ефективността на дадена практика?
+    - id: '37.2'
+      title: Evidence for Regulation Practices
+      concept: Доказателства за интервенции
+      question: Какво показват различните експериментални и клинични изследвания за ефективността на практиките?
+    - id: '37.3'
+      title: Dose, Context and Individual Response
+      concept: Индивидуална вариабилност
+      question: Как продължителността, контекстът и индивидуалните особености влияят върху резултатите?
+    - id: '37.4'
+      title: Safety, Contraindications and Adverse Effects
+      concept: Безопасност
+      question: Как се оценяват рисковете, противопоказанията и нежеланите ефекти?
+    - id: '37.5'
+      title: Evidence-Informed Practice Selection
+      concept: Обоснован избор на практика
+      question: Как избираме практика според целта, механизма, доказателствата и безопасността?
+  - number: 38
+    title: Integrated Neuroscience of Human Behaviour
+    lessons:
+    - id: '38.1'
+      title: From Cells to Behavior
+      concept: Многостепенна организация
+      question: Как клетъчните, невронните и физиологичните процеси допринасят за поведението?
+    - id: '38.2'
+      title: Autonomic, Interoceptive and Affective Integration
+      concept: Физиологично-афективно взаимодействие
+      question: Как автономната регулация, интероцепцията и афектът взаимодействат в реални ситуации?
+    - id: '38.3'
+      title: Development, Learning and Relationships
+      concept: Развойна и социална интеграция
+      question: Как развитието, научаването и отношенията влияят върху настоящите реакции?
+    - id: '38.4'
+      title: Explaining Complex Human Responses
+      concept: Многофакторно обяснение
+      question: Как анализираме човешка реакция, без да я свеждаме до един нерв, хормон, рефлекс или теория?
+    - id: '38.5'
+      title: The Integrated Nervous System Model
+      concept: Системен синтез
+      question: Как изграждаме научно обоснован и практически полезен модел на нервната система като динамична система?

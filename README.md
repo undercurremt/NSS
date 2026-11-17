@@ -2,6 +2,10 @@
 
 **38 weeks · 190 lessons · 8 parts**
 
+<!-- progress -->
+**Published: 6 / 190 lessons**
+<!-- /progress -->
+
 ---
 
 This is a structured, science-first course in neuroscience and psychophysiology.  

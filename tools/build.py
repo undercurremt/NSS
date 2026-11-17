@@ -90,7 +90,7 @@ def add(paths, lessons):
 # ------------------------------------------------------------------ generate
 
 def part_label(part):
-    return f"Part {part['number']} — {part['title']}"
+    return f"Part {part.get('roman', part['number'])} — {part['title']}"
 
 
 def week_label(week):
@@ -101,8 +101,10 @@ def write_week_pages(data):
     for part in data["parts"]:
         for week in part["weeks"]:
             done = sum(l["published"] for l in week["lessons"])
-            out = [GEN, f"# {week_label(week)}", "", f"> Part {part['number']}: {part['title']}", "",
-                   f"**{done} of {len(week['lessons'])} lessons published**", "", "---", ""]
+            out = [GEN, f"# {week_label(week)}", "", f"> {part_label(part)}", ""]
+            if week.get("scope") and week.get("show_scope", True):
+                out += [f"**Обхват:** {week['scope']}", ""]
+            out += [f"**{done} of {len(week['lessons'])} lessons published**", "", "---", ""]
             for l in week["lessons"]:
                 head = f"## [{l['id']}  {l['title']}](/{l['file']})" if l["published"] else f"## {l['id']}  {l['title']}"
                 out += [head, "", f"**Core concept:** {l['concept']}", "",

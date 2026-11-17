@@ -1,57 +1,14 @@
 * [Introduction](/)
-* **Part I — Невробиологични основи**
-
-  * [Week 1 — Организация на нервната система](/week-01/)
-    * [1.1 What Is the Nervous System?](/week-01/lesson_1_1_what_is_the_nervous_system.md)
-    * [1.2 The Cells of the Nervous System](/week-01/lesson_1_2_the_cells_of_the_nervous_system.md)
-    * [1.3 Central and Peripheral Nervous Systems](/week-01/lesson_1_3_central_and_peripheral_nervous_systems.md)
-    * [1.4 Afferent and Efferent Pathways](/week-01/lesson_1_4_afferent_and_efferent_pathways.md)
-    * [1.5 Neural Circuits and Functional Integration](/week-01/lesson_1_5_neural_circuits_and_functional_integration.md)
-  * [Week 2 — Невронна сигнализация — необходимият минимум](/week-02/)
-    * [2.1 Ion Gradients and the Resting Neuron](/week-02/lesson_2_1_ion_gradients_and_the_resting_neuron.md)
-  * [Week 3 — Функционална невроанатомия](/week-03/)
-  * [Week 4 — Сетивност, възприятие и действие](/week-04/)
-  * [Week 5 — Невропластичност, учене и памет](/week-05/)
-* **Part II — Физиологична регулация и мозък–тяло**
-
-  * [Week 6 — Автономна нервна система](/week-06/)
-  * [Week 7 — Централна автономна регулация](/week-07/)
-  * [Week 8 — Кардиореспираторна физиология](/week-08/)
-  * [Week 9 — Хомеостаза, алостаза и енергийна регулация](/week-09/)
-  * [Week 10 — Интероцепция](/week-10/)
-  * [Week 11 — Ноцицепция и болка](/week-11/)
-  * [Week 12 — Невроендокринна регулация](/week-12/)
-  * [Week 13 — Сън и циркадни ритми](/week-13/)
-  * [Week 14 — Невроимунна комуникация](/week-14/)
-* **Part III — Психофизиологични измервания и критичен преглед на поливагалните модели**
-
-  * [Week 15 — Психофизиологични измервания](/week-15/)
-  * [Week 16 — Поливагална теория: предложения, критики и приложения](/week-16/)
-* **Part IV — Афективна невронаука и емоции**
-
-  * [Week 17 — Афект, мотивация и телесна регулация](/week-17/)
-  * [Week 18 — Сравнителна афективна невронаука и Panksepp](/week-18/)
-  * [Week 19 — Емоционално учене и регулация](/week-19/)
-  * [Week 20 — Съзнателно преживяване и теории за емоциите](/week-20/)
-* **Part V — Невроразвитие и формиране на регулацията**
-
-  * [Week 21 — Пренатално невроразвитие](/week-21/)
-  * [Week 22 — Ранно постнатално и сензомоторно развитие](/week-22/)
-  * [Week 23 — Привързаност и ранна ко-регулация](/week-23/)
-  * [Week 24 — Темперамент и развитие на саморегулацията](/week-24/)
-  * [Week 25 — Нервната система през жизнения цикъл](/week-25/)
-* **Part VI — Стрес, защита и адаптация**
-
-  * [Week 26 — Остра стресова реакция и защитно поведение](/week-26/)
-  * [Week 27 — Хроничен стрес и адаптация](/week-27/)
-  * [Week 28 — Травматичен стрес и хетерогенни последствия](/week-28/)
-* **Part VII — Социална невронаука и поведение**
-
-  * [Week 29 — Социална невронаука и междуличностна регулация](/week-29/)
-  * [Week 30 — Предсказване, учене и навици](/week-30/)
-  * [Week 31 — Мотивация, решения и поведенческа гъвкавост](/week-31/)
-* **Part VIII — Интеграция, оценка и приложение**
-
-  * [Week 32 — Физиологични механизми на практиките](/week-32/)
-  * [Week 33 — Ефективност, безопасност и индивидуални различия](/week-33/)
-  * [Week 34 — Интегрирана невронаука на човешкото поведение](/week-34/)
+* [**Module 1 — Foundations: From Neural Organization to Adaptive Networks**](/module-01/)
+  * [1.1 What Is the Nervous System?](/module-01/lesson_1_1_what_is_the_nervous_system.md)
+  * [1.2 The Cells of the Nervous System](/module-01/lesson_1_2_the_cells_of_the_nervous_system.md)
+  * [1.3 Central and Peripheral Nervous Systems](/module-01/lesson_1_3_central_and_peripheral_nervous_systems.md)
+  * [1.4 Afferent and Efferent Pathways](/module-01/lesson_1_4_afferent_and_efferent_pathways.md)
+  * [1.5 Neural Circuits and Functional Integration](/module-01/lesson_1_5_neural_circuits_and_functional_integration.md)
+* [**Module 2 — Physiological Regulation and Brain–Body Communication**](/module-02/)
+* [**Module 3 — Interoception, Bodily Experience and Pain**](/module-03/)
+* [**Module 4 — Affect, Motivation and Emotional Learning**](/module-04/)
+* [**Module 5 — Development, Relationships and Self-Regulation**](/module-05/)
+* [**Module 6 — Threat, Stress, Defense and Recovery**](/module-06/)
+* [**Module 7 — Social Context, Decision-Making and Model Critique**](/module-07/)
+* [**Module 8 — Evidence-Based Regulation in Specific States**](/module-08/)

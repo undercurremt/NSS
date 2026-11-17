@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-build.py — keeps the NSS course site in sync with curriculum.yaml.
+build.py — keeps the NSS course site in sync with curriculum.yaml (Master Lesson Index v1.4, modules).
 
-  python tools/build.py                     regenerate sidebar, week pages, progress, prev/next
+  python tools/build.py                     regenerate sidebar, module pages, progress, prev/next
   python tools/build.py add FILE.md [...]   file new lesson(s) from ChatGPT, then regenerate
   python tools/build.py status              which lessons are published
 
 A lesson is "published" when its file exists:
-  week-WW/lesson_W_L_<title_slug>.md   (e.g. week-02/lesson_2_1_membranes_ion_gradients_and_cellular_energy.md)
+  module-MM/lesson_M_L_<title_slug>.md   (e.g. module-01/lesson_1_6_electrical_and_chemical_signaling_in_context.md)
 
 Generated files — never edit by hand:
-  _sidebar.md, week-*/README.md, book-pages.js, the progress line in README.md
+  _sidebar.md, module-*/README.md, book-pages.js, the progress line in README.md
 """
 import json
 import re
@@ -38,16 +38,14 @@ def slug(text):
 def load():
     data = yaml.safe_load((ROOT / "curriculum.yaml").read_text(encoding="utf-8"))
     lessons = []
-    for part in data["parts"]:
-        for week in part["weeks"]:
-            week["part"] = part
-            week["dir"] = f"week-{week['number']:02d}"
-            for les in week["lessons"]:
-                w, n = les["id"].split(".")
-                les["week"] = week
-                les["file"] = f"{week['dir']}/lesson_{w}_{n}_{slug(les['title'])}.md"
-                les["published"] = (ROOT / les["file"]).exists()
-                lessons.append(les)
+    for mod in data["modules"]:
+        mod["dir"] = f"module-{mod['number']:02d}"
+        for les in mod["lessons"]:
+            m, n = les["id"].split(".")
+            les["module"] = mod
+            les["file"] = f"{mod['dir']}/lesson_{m}_{n}_{slug(les['title'])}.md"
+            les["published"] = (ROOT / les["file"]).exists()
+            lessons.append(les)
     return data, lessons
 
 
@@ -55,7 +53,7 @@ def load():
 
 def normalise(text):
     """Make the lesson's first heading an H1. If the file starts at H2 (## 2.2 Title),
-    promote every heading one level so sections show up in the sidebar."""
+    promote every heading one level."""
     text = text.replace("\r\n", "\n").lstrip("﻿").strip() + "\n"
     first = re.search(r"(?m)^(#{1,6}) ", text)
     if first and len(first.group(1)) > 1:
@@ -77,7 +75,7 @@ def add(paths, lessons):
         lid = lesson_id(text, p.name)
         if lid not in by_id:
             sys.exit(f"✗ {p.name}: can't tell which lesson this is (found {lid!r}). "
-                     "Start the file with a heading like '# 2.2 Resting Membrane Potential'.")
+                     "Start the file with a heading like '# 1.6 Electrical and Chemical Signaling in Context'.")
         les = by_id[lid]
         dest = ROOT / les["file"]
         action = "updated" if dest.exists() else "added"
@@ -89,41 +87,38 @@ def add(paths, lessons):
 
 # ------------------------------------------------------------------ generate
 
-def part_label(part):
-    return f"Part {part.get('roman', part['number'])} — {part['title']}"
+def module_label(mod):
+    return f"Module {mod['number']} — {mod['title']}"
 
 
-def week_label(week):
-    return f"Week {week['number']} — {week['title']}"
+def write_module_pages(data, by_id):
+    def dep_link(d):
+        l = by_id[d]
+        return f"[{d}](/{l['file']})" if l["published"] else d
 
-
-def write_week_pages(data):
-    for part in data["parts"]:
-        for week in part["weeks"]:
-            done = sum(l["published"] for l in week["lessons"])
-            out = [GEN, f"# {week_label(week)}", "", f"> {part_label(part)}", ""]
-            if week.get("scope") and week.get("show_scope", True):
-                out += [f"**Обхват:** {week['scope']}", ""]
-            out += [f"**{done} of {len(week['lessons'])} lessons published**", "", "---", ""]
-            for l in week["lessons"]:
-                head = f"## [{l['id']}  {l['title']}](/{l['file']})" if l["published"] else f"## {l['id']}  {l['title']}"
-                out += [head, "", f"**Core concept:** {l['concept']}", "",
-                        f"**Guiding question:** {l['question']}", ""]
-                if not l["published"]:
-                    out += ["*Full lesson content coming soon.*", ""]
-                out += ["---", ""]
-            path = ROOT / week["dir"] / "README.md"
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text("\n".join(out), encoding="utf-8")
+    for mod in data["modules"]:
+        done = sum(l["published"] for l in mod["lessons"])
+        out = [GEN, f"# {module_label(mod)}", "", f"*{mod['theme']}*", "",
+               f"**{done} of {len(mod['lessons'])} lessons published**", "", "---", ""]
+        for l in mod["lessons"]:
+            head = f"## [{l['id']}  {l['title']}](/{l['file']})" if l["published"] else f"## {l['id']}  {l['title']}"
+            out += [head, "", f"**Core concept:** {l['concept']}", "",
+                    f"**Guiding question:** {l['question']}", ""]
+            if l.get("depends"):
+                out += ["**Dependencies:** " + ", ".join(dep_link(d) for d in l["depends"]), ""]
+            if not l["published"]:
+                out += ["*Full lesson content coming soon.*", ""]
+            out += ["---", ""]
+        path = ROOT / mod["dir"] / "README.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(out), encoding="utf-8")
 
 
 def write_sidebar(data):
     out = ["* [Introduction](/)"]
-    for part in data["parts"]:
-        out += [f"* **{part_label(part)}**", ""]
-        for week in part["weeks"]:
-            out.append(f"  * [{week_label(week)}](/{week['dir']}/)")
-            out += [f"    * [{l['id']} {l['title']}](/{l['file']})" for l in week["lessons"] if l["published"]]
+    for mod in data["modules"]:
+        out.append(f"* [**{module_label(mod)}**](/{mod['dir']}/)")
+        out += [f"  * [{l['id']} {l['title']}](/{l['file']})" for l in mod["lessons"] if l["published"]]
     (ROOT / "_sidebar.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
@@ -144,7 +139,7 @@ def write_progress(lessons):
 
 
 def build(data, lessons):
-    write_week_pages(data)
+    write_module_pages(data, {l["id"]: l for l in lessons})
     write_sidebar(data)
     write_nav(lessons)
     write_progress(lessons)
@@ -152,11 +147,9 @@ def build(data, lessons):
 
 
 def status(data):
-    for part in data["parts"]:
-        print(f"\n{part_label(part)}")
-        for week in part["weeks"]:
-            marks = "".join("●" if l["published"] else "·" for l in week["lessons"])
-            print(f"  {marks}  {week_label(week)}")
+    for mod in data["modules"]:
+        marks = "".join("●" if l["published"] else "·" for l in mod["lessons"])
+        print(f"  {marks:<22} {module_label(mod)}")
 
 
 if __name__ == "__main__":

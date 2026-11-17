@@ -12,7 +12,7 @@ Claude only files and publishes them. Never edit lesson text unless explicitly a
    https://undercurremt.github.io/NSS/#/week-WW/lesson_W_L_<title_slug>
 
 ## Rules
-- `curriculum.yaml` is the source of truth for titles, core concepts and guiding questions (all 190 lessons).
+- `curriculum.yaml` is the source of truth for titles, core concepts and guiding questions (all 170 lessons, Master Lesson Index v1.3).
 - Generated, never edit by hand: `_sidebar.md`, `week-*/README.md`, `book-pages.js`, progress line in `README.md`.
   Change `curriculum.yaml` and run `python tools/build.py` instead.
 - Requires `pip install pyyaml`.

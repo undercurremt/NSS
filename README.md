@@ -1,9 +1,9 @@
 # The Nervous System — One Concept at a Time
 
-**38 weeks · 190 lessons · 8 parts**
+**34 weeks · 170 lessons · 8 parts**
 
 <!-- progress -->
-**Published: 6 / 190 lessons**
+**Published: 5 / 170 lessons**
 <!-- /progress -->
 
 ---
@@ -11,7 +11,7 @@
 This is a structured, science-first course in neuroscience and psychophysiology.  
 Each lesson is built around a single concept and a single guiding question.
 
-> *One concept at a time. One question at a time. 190 lessons in total.*
+> *One concept at a time. One question at a time. 170 lessons in total.*
 
 ---
 
@@ -19,14 +19,14 @@ Each lesson is built around a single concept and a single guiding question.
 
 | Part | Topic | Weeks | Lessons |
 |------|-------|-------|---------|
-| I | Neurobiological Foundations | 1–6 | 30 |
-| II | Physiological Regulation & Brain–Body | 7–15 | 45 |
-| III | Autonomic Dynamics & Polyvagal Models | 16–18 | 15 |
-| IV | Affective Neuroscience & Emotions | 19–23 | 25 |
-| V | Neurodevelopment & Regulation | 24–29 | 30 |
-| VI | Stress, Protection & Adaptation | 30–32 | 15 |
-| VII | Social Neuroscience & Behaviour | 33–35 | 15 |
-| VIII | Integration & Application | 36–38 | 15 |
+| I | Невробиологични основи | 1–5 | 25 |
+| II | Физиологична регулация и мозък–тяло | 6–14 | 45 |
+| III | Психофизиологични измервания и критичен преглед на поливагалните модели | 15–16 | 10 |
+| IV | Афективна невронаука и емоции | 17–20 | 20 |
+| V | Невроразвитие и формиране на регулацията | 21–25 | 25 |
+| VI | Стрес, защита и адаптация | 26–28 | 15 |
+| VII | Социална невронаука и поведение | 29–31 | 15 |
+| VIII | Интеграция, оценка и приложение | 32–34 | 15 |
 
 ---
 
@@ -38,4 +38,4 @@ Each lesson is built around a single concept and a single guiding question.
 
 ---
 
-**Master Curriculum v1.2** — Index complete · Full lesson content in development
+**Master Curriculum v1.3** — Index complete · Full lesson content in development

@@ -6,7 +6,6 @@
 
 ## 2.1 Membranes, Ion Gradients and Cellular Energy
 
-[Прочети пълния урок 2.1](#/week-02/lesson_2_1_membranes_ion_gradients_and_cellular_energy)
 
 **Core concept:** Електрохимични градиенти и енергийни потребности
 

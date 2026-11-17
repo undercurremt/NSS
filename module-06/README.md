@@ -25,7 +25,7 @@
 
 **Guiding question:** Как значимите сигнали променят вниманието и подготовката за действие?
 
-**Dependencies:** 1.10, 6.1
+**Dependencies:** 1.9, 6.1
 
 *Full lesson content coming soon.*
 
@@ -73,7 +73,7 @@
 
 **Guiding question:** Как опитът може да води до сенситизация, хабитуация или промени в научаването?
 
-**Dependencies:** 1.13, 6.5, 4.5
+**Dependencies:** 1.12, 6.5, 4.5
 
 *Full lesson content coming soon.*
 

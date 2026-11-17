@@ -12,7 +12,7 @@ Claude only files and publishes them. Never edit lesson text unless explicitly a
    https://undercurremt.github.io/NSS/#/module-MM/lesson_M_L_<title_slug>
 
 ## Rules
-- `curriculum.yaml` is the source of truth: Master Lesson Index v1.4 — 8 modules, 107 lessons
+- `curriculum.yaml` is the source of truth: Master Curriculum Control v1.4 (final) — 8 modules, 103 lessons
   (title, core concept, guiding question, dependencies). No weeks.
 - Lessons 1.1–1.5 are locked: never edit their text.
 - `archive/` holds lessons that are not part of the current index (e.g. the v1.3 lesson 2.1). Not linked on the site; don't publish or edit.

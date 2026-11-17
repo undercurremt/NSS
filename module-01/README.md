@@ -3,7 +3,7 @@
 
 *Основи: от организацията към адаптивните невронни мрежи*
 
-**5 of 14 lessons published**
+**5 of 13 lessons published**
 
 ---
 
@@ -79,11 +79,11 @@
 
 ---
 
-## 1.8  Cortical and Subcortical Cooperation
+## 1.8  Cortical, Subcortical and Distributed Networks
 
-**Core concept:** Взаимодействие на кортикални и подкоркови системи
+**Core concept:** Функционална специализация и разпределени мрежи
 
-**Guiding question:** Защо сложните функции не принадлежат на една-единствена мозъчна структура?
+**Guiding question:** Как кортикални и подкоркови структури координират специализирани функции чрез взаимодействието на мрежи?
 
 **Dependencies:** [1.5](/module-01/lesson_1_5_neural_circuits_and_functional_integration.md), 1.7
 
@@ -91,47 +91,47 @@
 
 ---
 
-## 1.9  Distributed Networks and Functional Specialization
-
-**Core concept:** Разпределени мрежи и специализация
-
-**Guiding question:** Как специализираните структури действат като взаимосвързани мрежи?
-
-**Dependencies:** 1.8
-
-*Full lesson content coming soon.*
-
----
-
-## 1.10  Sensation, Perception and Context
+## 1.9  Sensation, Perception and Context
 
 **Core concept:** Сетивно кодиране и контекстна интерпретация
 
 **Guiding question:** Как сетивните сигнали се превръщат във възприятие, зависещо и от контекста?
 
-**Dependencies:** [1.4](/module-01/lesson_1_4_afferent_and_efferent_pathways.md), 1.9
+**Dependencies:** [1.4](/module-01/lesson_1_4_afferent_and_efferent_pathways.md), 1.8
 
 *Full lesson content coming soon.*
 
 ---
 
-## 1.11  Body Position, Balance and Action
+## 1.10  Body Position, Balance and Action
 
 **Core concept:** Проприоцептивна, вестибуларна и двигателна координация
 
 **Guiding question:** Как информацията за положението и движението на тялото подпомага действието?
 
-**Dependencies:** 1.10
+**Dependencies:** 1.9
 
 *Full lesson content coming soon.*
 
 ---
 
-## 1.12  Feedback, Movement and Adaptive Control
+## 1.11  Feedback, Movement and Adaptive Control
 
 **Core concept:** Сетивна обратна връзка и действие
 
 **Guiding question:** Как обратната връзка позволява непрекъснато коригиране на поведението?
+
+**Dependencies:** [1.5](/module-01/lesson_1_5_neural_circuits_and_functional_integration.md), 1.10
+
+*Full lesson content coming soon.*
+
+---
+
+## 1.12  Neuroplasticity: How Experience Changes Circuits
+
+**Core concept:** Пластичност на невронните вериги
+
+**Guiding question:** Как опитът и активността променят функционалните връзки?
 
 **Dependencies:** [1.5](/module-01/lesson_1_5_neural_circuits_and_functional_integration.md), 1.11
 
@@ -139,25 +139,13 @@
 
 ---
 
-## 1.13  Neuroplasticity: How Experience Changes Circuits
-
-**Core concept:** Пластичност на невронните вериги
-
-**Guiding question:** Как опитът и активността променят функционалните връзки?
-
-**Dependencies:** [1.5](/module-01/lesson_1_5_neural_circuits_and_functional_integration.md), 1.12
-
-*Full lesson content coming soon.*
-
----
-
-## 1.14  Learning, Memory and Generalization
+## 1.13  Learning, Memory and Generalization
 
 **Core concept:** Учене, памет и пренос на наученото
 
 **Guiding question:** Какво отличава научаването, запаметяването и прилагането в нов контекст?
 
-**Dependencies:** 1.13
+**Dependencies:** 1.12
 
 *Full lesson content coming soon.*
 

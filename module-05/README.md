@@ -13,7 +13,7 @@
 
 **Guiding question:** Как възникват нервни клетки, структури и първични връзки преди раждането?
 
-**Dependencies:** [1.2](/module-01/lesson_1_2_the_cells_of_the_nervous_system.md), 1.9
+**Dependencies:** [1.2](/module-01/lesson_1_2_the_cells_of_the_nervous_system.md), 1.8
 
 *Full lesson content coming soon.*
 
@@ -25,7 +25,7 @@
 
 **Guiding question:** Как спонтанната и предизвикана активност участват в организацията на ранните вериги?
 
-**Dependencies:** 5.1, 1.13
+**Dependencies:** 5.1, 1.12
 
 *Full lesson content coming soon.*
 
@@ -49,7 +49,7 @@
 
 **Guiding question:** Как двигателният и сетивният опит взаимодействат със съзряването на нервните мрежи?
 
-**Dependencies:** 5.2, 1.11
+**Dependencies:** 5.2, 1.10
 
 *Full lesson content coming soon.*
 
@@ -73,7 +73,7 @@
 
 **Guiding question:** Как обратната връзка и съзряването подпомагат постурата и целенасочените движения?
 
-**Dependencies:** 5.4, 1.12
+**Dependencies:** 5.4, 1.11
 
 *Full lesson content coming soon.*
 
@@ -157,7 +157,7 @@
 
 **Guiding question:** Как вниманието и инхибиторният контрол подпомагат постепенното развитие на саморегулацията?
 
-**Dependencies:** 5.12, 1.14
+**Dependencies:** 5.12, 1.13
 
 *Full lesson content coming soon.*
 
@@ -193,7 +193,7 @@
 
 **Guiding question:** Как ученето и компенсаторните механизми продължават да действат с възрастта?
 
-**Dependencies:** 1.13, 5.15
+**Dependencies:** 1.12, 5.15
 
 *Full lesson content coming soon.*
 

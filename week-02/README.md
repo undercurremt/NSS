@@ -3,17 +3,15 @@
 
 > Part I — Невробиологични основи
 
-**0 of 5 lessons published**
+**1 of 5 lessons published**
 
 ---
 
-## 2.1  Ion Gradients and the Resting Neuron
+## [2.1  Ion Gradients and the Resting Neuron](/week-02/lesson_2_1_ion_gradients_and_the_resting_neuron.md)
 
 **Core concept:** Йонни градиенти и потенциал на покой
 
 **Guiding question:** Как мембраната и йонните градиенти създават електрически условия за нервна сигнализация?
-
-*Full lesson content coming soon.*
 
 ---
 

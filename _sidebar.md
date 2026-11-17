@@ -8,6 +8,7 @@
     * [1.4 Afferent and Efferent Pathways](/week-01/lesson_1_4_afferent_and_efferent_pathways.md)
     * [1.5 Neural Circuits and Functional Integration](/week-01/lesson_1_5_neural_circuits_and_functional_integration.md)
   * [Week 2 — Невронна сигнализация — необходимият минимум](/week-02/)
+    * [2.1 Ion Gradients and the Resting Neuron](/week-02/lesson_2_1_ion_gradients_and_the_resting_neuron.md)
   * [Week 3 — Функционална невроанатомия](/week-03/)
   * [Week 4 — Сетивност, възприятие и действие](/week-04/)
   * [Week 5 — Невропластичност, учене и памет](/week-05/)

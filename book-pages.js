@@ -19,5 +19,9 @@ window.BOOK_PAGES = [
  {
   "file": "week-01/lesson_1_5_neural_circuits_and_functional_integration.md",
   "label": "1.5 Neural Circuits and Functional Integration"
+ },
+ {
+  "file": "week-02/lesson_2_1_ion_gradients_and_the_resting_neuron.md",
+  "label": "2.1 Ion Gradients and the Resting Neuron"
  }
 ];

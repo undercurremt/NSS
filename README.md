@@ -3,7 +3,7 @@
 **34 weeks · 170 lessons · 8 parts**
 
 <!-- progress -->
-**Published: 5 / 170 lessons**
+**Published: 6 / 170 lessons**
 <!-- /progress -->
 
 ---

@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """
-build.py — keeps the NSS course site in sync with curriculum.yaml (Master Lesson Index v1.4, modules).
+build.py — keeps the NSS course site in sync with curriculum.yaml
+(NS Master Curriculum Control v1.4, sequential lessons 001–170 in 8 parts).
 
-  python tools/build.py                     regenerate sidebar, module pages, progress, prev/next
-  python tools/build.py add FILE.md [...]   file new lesson(s) from ChatGPT, then regenerate
+  python tools/build.py                     regenerate sidebar, part pages, progress, prev/next
+  python tools/build.py add FILE.md [...]   file new lesson(s), then regenerate
   python tools/build.py status              which lessons are published
 
 A lesson is "published" when its file exists:
-  module-MM/lesson_M_L_<title_slug>.md   (e.g. module-01/lesson_1_6_electrical_and_chemical_signaling_in_context.md)
+  part-PP/lesson_NNN_<title_slug>.md   (e.g. part-01/lesson_001_what_is_the_nervous_system.md)
 
 Generated files — never edit by hand:
-  _sidebar.md, module-*/README.md, book-pages.js, the progress line in README.md
+  _sidebar.md, part-*/README.md, book-pages.js, the progress line in README.md
 """
 import json
 import re
@@ -31,6 +32,7 @@ PROGRESS_RE = re.compile(r"<!-- progress -->.*?<!-- /progress -->", re.S)
 # ------------------------------------------------------------------ curriculum
 
 def slug(text):
+    text = re.sub(r"[–—]", " ", text)  # en/em dashes separate words ("Hawk–Dove" -> hawk_dove)
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
     return "_".join(re.findall(r"[a-z0-9]+", text.lower()))
 
@@ -38,12 +40,11 @@ def slug(text):
 def load():
     data = yaml.safe_load((ROOT / "curriculum.yaml").read_text(encoding="utf-8"))
     lessons = []
-    for mod in data["modules"]:
-        mod["dir"] = f"module-{mod['number']:02d}"
-        for les in mod["lessons"]:
-            m, n = les["id"].split(".")
-            les["module"] = mod
-            les["file"] = f"{mod['dir']}/lesson_{m}_{n}_{slug(les['title'])}.md"
+    for part in data["parts"]:
+        part["dir"] = f"part-{part['number']:02d}"
+        for les in part["lessons"]:
+            les["part"] = part
+            les["file"] = f"{part['dir']}/lesson_{les['id']}_{slug(les['title'])}.md"
             les["published"] = (ROOT / les["file"]).exists()
             lessons.append(les)
     return data, lessons
@@ -52,8 +53,7 @@ def load():
 # ------------------------------------------------------------------ add lessons
 
 def normalise(text):
-    """Make the lesson's first heading an H1. If the file starts at H2 (## 2.2 Title),
-    promote every heading one level."""
+    """Make the lesson's first heading an H1; if it starts at H2+, promote every heading."""
     text = text.replace("\r\n", "\n").lstrip("﻿").strip() + "\n"
     first = re.search(r"(?m)^(#{1,6}) ", text)
     if first and len(first.group(1)) > 1:
@@ -63,9 +63,9 @@ def normalise(text):
 
 
 def lesson_id(text, filename):
-    m = re.search(r"(?m)^#{1,6}\s*(?:Lesson\s*|Урок\s*)?(\d{1,2})\.(\d{1,2})\b", text)
-    m = m or re.search(r"(\d{1,2})[._](\d{1,2})", filename)
-    return f"{int(m.group(1))}.{int(m.group(2))}" if m else None
+    m = re.search(r"(?m)^#{1,6}\s*(?:Lesson\s*|Урок\s*)?(?:№\s*)?(\d{1,3})\b", text)
+    m = m or re.search(r"(?:lesson|урок)?[_\s-]*(\d{1,3})\b", filename, re.I)
+    return f"{int(m.group(1)):03d}" if m else None
 
 
 def add(paths, lessons):
@@ -75,7 +75,7 @@ def add(paths, lessons):
         lid = lesson_id(text, p.name)
         if lid not in by_id:
             sys.exit(f"✗ {p.name}: can't tell which lesson this is (found {lid!r}). "
-                     "Start the file with a heading like '# 1.6 Electrical and Chemical Signaling in Context'.")
+                     "Start the file with a heading like '# Lesson 017 — Somatosensation, Proprioception and Body Position'.")
         les = by_id[lid]
         dest = ROOT / les["file"]
         action = "updated" if dest.exists() else "added"
@@ -87,38 +87,55 @@ def add(paths, lessons):
 
 # ------------------------------------------------------------------ generate
 
-def module_label(mod):
-    return f"Module {mod['number']} — {mod['title']}"
+def part_label(part):
+    return f"Part {part['roman']} — {part['title']}"
 
 
-def write_module_pages(data, by_id):
-    def dep_link(d):
-        l = by_id[d]
-        return f"[{d}](/{l['file']})" if l["published"] else d
+def ref_list(refs, by_id):
+    """Render lesson references; runs of 3+ consecutive lessons are shown as a range (090–100)."""
+    def one(r):
+        l = by_id.get(r)
+        if l is None:
+            return r  # free text, e.g. "Всички части"
+        return f"[{r}](/{l['file']})" if l["published"] else r
 
-    for mod in data["modules"]:
-        done = sum(l["published"] for l in mod["lessons"])
-        out = [GEN, f"# {module_label(mod)}", "", f"*{mod['theme']}*", "",
-               f"**{done} of {len(mod['lessons'])} lessons published**", "", "---", ""]
-        for l in mod["lessons"]:
+    out, i = [], 0
+    while i < len(refs):
+        j = i
+        while (j + 1 < len(refs) and refs[j].isdigit() and refs[j + 1].isdigit()
+               and int(refs[j + 1]) == int(refs[j]) + 1):
+            j += 1
+        out.append(f"{one(refs[i])}–{one(refs[j])}" if j - i >= 2 else ", ".join(one(r) for r in refs[i:j + 1]))
+        i = j + 1
+    return ", ".join(out)
+
+
+def write_part_pages(data, by_id):
+    for part in data["parts"]:
+        done = sum(l["published"] for l in part["lessons"])
+        out = [GEN, f"# {part_label(part)}", "",
+               f"**{done} of {len(part['lessons'])} lessons published**", "", "---", ""]
+        for l in part["lessons"]:
             head = f"## [{l['id']}  {l['title']}](/{l['file']})" if l["published"] else f"## {l['id']}  {l['title']}"
             out += [head, "", f"**Core concept:** {l['concept']}", "",
                     f"**Guiding question:** {l['question']}", ""]
-            if l.get("depends"):
-                out += ["**Dependencies:** " + ", ".join(dep_link(d) for d in l["depends"]), ""]
+            if l.get("prerequisites"):
+                out += ["**Prerequisites:** " + ref_list(l["prerequisites"], by_id), ""]
+            if l.get("related"):
+                out += ["**Related lessons:** " + ref_list(l["related"], by_id), ""]
             if not l["published"]:
                 out += ["*Full lesson content coming soon.*", ""]
             out += ["---", ""]
-        path = ROOT / mod["dir"] / "README.md"
+        path = ROOT / part["dir"] / "README.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("\n".join(out), encoding="utf-8")
 
 
 def write_sidebar(data):
     out = ["* [Introduction](/)"]
-    for mod in data["modules"]:
-        out.append(f"* [**{module_label(mod)}**](/{mod['dir']}/)")
-        out += [f"  * [{l['id']} {l['title']}](/{l['file']})" for l in mod["lessons"] if l["published"]]
+    for part in data["parts"]:
+        out.append(f"* [**{part_label(part)}**](/{part['dir']}/)")
+        out += [f"  * [{l['id']} {l['title']}](/{l['file']})" for l in part["lessons"] if l["published"]]
     (ROOT / "_sidebar.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
@@ -139,7 +156,7 @@ def write_progress(lessons):
 
 
 def build(data, lessons):
-    write_module_pages(data, {l["id"]: l for l in lessons})
+    write_part_pages(data, {l["id"]: l for l in lessons})
     write_sidebar(data)
     write_nav(lessons)
     write_progress(lessons)
@@ -147,9 +164,9 @@ def build(data, lessons):
 
 
 def status(data):
-    for mod in data["modules"]:
-        marks = "".join("●" if l["published"] else "·" for l in mod["lessons"])
-        print(f"  {marks:<22} {module_label(mod)}")
+    for part in data["parts"]:
+        marks = "".join("●" if l["published"] else "·" for l in part["lessons"])
+        print(f"  {marks:<46} {part_label(part)}")
 
 
 if __name__ == "__main__":

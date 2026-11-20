@@ -1,4 +1,4 @@
-# 2.1 Ion Gradients and the Resting Neuron
+# Lesson 006 — Ion Gradients and the Resting Neuron
 
 > **Проект:** The Nervous System, One Concept at a Time  
 > **Контролна версия:** Master Curriculum v1.3 · седмица 2 — „Невронна сигнализация — необходимият минимум“  

@@ -83,5 +83,25 @@ window.BOOK_PAGES = [
  {
   "file": "part-01/lesson_021_synaptic_plasticity.md",
   "label": "021 Synaptic Plasticity"
+ },
+ {
+  "file": "part-01/lesson_022_experience_dependent_circuit_plasticity.md",
+  "label": "022 Experience-Dependent Circuit Plasticity"
+ },
+ {
+  "file": "part-01/lesson_023_associative_and_non_associative_learning.md",
+  "label": "023 Associative and Non-Associative Learning"
+ },
+ {
+  "file": "part-01/lesson_024_memory_systems_and_consolidation.md",
+  "label": "024 Memory Systems and Consolidation"
+ },
+ {
+  "file": "part-01/lesson_025_genetic_regulation_experience_and_plasticity.md",
+  "label": "025 Genetic Regulation, Experience and Plasticity"
+ },
+ {
+  "file": "part-02/lesson_026_autonomic_and_somatic_organization.md",
+  "label": "026 Autonomic and Somatic Organization"
  }
 ];

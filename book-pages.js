@@ -63,5 +63,25 @@ window.BOOK_PAGES = [
  {
   "file": "part-01/lesson_016_sensory_transduction_and_neural_coding.md",
   "label": "016 Sensory Transduction and Neural Coding"
+ },
+ {
+  "file": "part-01/lesson_017_somatosensation_proprioception_and_body_position.md",
+  "label": "017 Somatosensation, Proprioception and Body Position"
+ },
+ {
+  "file": "part-01/lesson_018_vestibular_signals_balance_and_orientation.md",
+  "label": "018 Vestibular Signals, Balance and Orientation"
+ },
+ {
+  "file": "part-01/lesson_019_multisensory_integration_and_active_perception.md",
+  "label": "019 Multisensory Integration and Active Perception"
+ },
+ {
+  "file": "part-01/lesson_020_motor_control_feedback_and_spinal_reflexes.md",
+  "label": "020 Motor Control, Feedback and Spinal Reflexes"
+ },
+ {
+  "file": "part-01/lesson_021_synaptic_plasticity.md",
+  "label": "021 Synaptic Plasticity"
  }
 ];

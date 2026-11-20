@@ -103,5 +103,45 @@ window.BOOK_PAGES = [
  {
   "file": "part-02/lesson_026_autonomic_and_somatic_organization.md",
   "label": "026 Autonomic and Somatic Organization"
+ },
+ {
+  "file": "part-02/lesson_027_sympathetic_pathways_and_organ_effects.md",
+  "label": "027 Sympathetic Pathways and Organ Effects"
+ },
+ {
+  "file": "part-02/lesson_028_parasympathetic_pathways_and_organ_effects.md",
+  "label": "028 Parasympathetic Pathways and Organ Effects"
+ },
+ {
+  "file": "part-02/lesson_029_autonomic_neurotransmission_and_receptors.md",
+  "label": "029 Autonomic Neurotransmission and Receptors"
+ },
+ {
+  "file": "part-02/lesson_030_enteric_neural_circuits.md",
+  "label": "030 Enteric Neural Circuits"
+ },
+ {
+  "file": "part-02/lesson_031_visceral_afferent_pathways.md",
+  "label": "031 Visceral Afferent Pathways"
+ },
+ {
+  "file": "part-02/lesson_032_brainstem_autonomic_nuclei.md",
+  "label": "032 Brainstem Autonomic Nuclei"
+ },
+ {
+  "file": "part-02/lesson_033_hypothalamic_integration.md",
+  "label": "033 Hypothalamic Integration"
+ },
+ {
+  "file": "part-02/lesson_034_cortical_and_subcortical_autonomic_modulation.md",
+  "label": "034 Cortical and Subcortical Autonomic Modulation"
+ },
+ {
+  "file": "part-02/lesson_035_the_central_autonomic_network.md",
+  "label": "035 The Central Autonomic Network"
+ },
+ {
+  "file": "part-02/lesson_036_cardiac_pacemaking_and_autonomic_control.md",
+  "label": "036 Cardiac Pacemaking and Autonomic Control"
  }
 ];

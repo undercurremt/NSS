@@ -58,5 +58,6 @@
   * [053 Prediction in Interoceptive Experience](/053-04.08-prediction-in-interoceptive-experience.md)
   * [054 Bodily Sensation and Interpretation](/054-04.09-bodily-sensation-and-interpretation.md)
   * [055 Interoception and Regulatory Behavior](/055-04.10-interoception-and-regulatory-behavior.md)
+  * [056 Nociception and Pain Experience](/056-04.11-nociception-and-pain-experience.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

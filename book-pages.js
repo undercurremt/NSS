@@ -55,4 +55,5 @@ window.BOOK_PAGES = [
   { file: '053-04.08-prediction-in-interoceptive-experience.md', label: "053 Prediction in Interoceptive Experience" },
   { file: '054-04.09-bodily-sensation-and-interpretation.md', label: "054 Bodily Sensation and Interpretation" },
   { file: '055-04.10-interoception-and-regulatory-behavior.md', label: "055 Interoception and Regulatory Behavior" },
+  { file: '056-04.11-nociception-and-pain-experience.md', label: "056 Nociception and Pain Experience" },
 ];

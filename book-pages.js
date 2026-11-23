@@ -39,4 +39,9 @@ window.BOOK_PAGES = [
   { file: '037-03.03-hypothalamic-regulation.md', label: '037 Hypothalamic Regulation' },
   { file: '038-03.04-the-central-autonomic-network.md', label: '038 The Central Autonomic Network' },
   { file: '039-03.05-insular-contributions-to-bodily-regulation.md', label: '039 Insular Contributions to Bodily Regulation' },
+  { file: '040-03.06-amygdala-contributions-to-autonomic-responses.md', label: '040 Amygdala Contributions to Autonomic Responses' },
+  { file: '041-03.07-prefrontal-modulation-of-autonomic-function.md', label: '041 Prefrontal Modulation of Autonomic Function' },
+  { file: '042-03.08-neuroendocrine-coordination.md', label: '042 Neuroendocrine Coordination' },
+  { file: '043-03.09-neuroimmune-communication.md', label: '043 Neuroimmune Communication' },
+  { file: '044-03.10-thirst-and-fluid-homeostasis.md', label: '044 Thirst and Fluid Homeostasis' },
 ];

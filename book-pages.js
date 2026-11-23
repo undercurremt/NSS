@@ -17,4 +17,9 @@ window.BOOK_PAGES = [
   { file: '015-02.03-the-baroreflex.md', label: '015 The Baroreflex' },
   { file: '016-02.04-autonomic-responses-to-standing.md', label: '016 Autonomic Responses to Standing' },
   { file: '017-02.05-automatic-respiratory-control.md', label: '017 Automatic Respiratory Control' },
+  { file: '028-02.16-feedback-regulation.md', label: '028 Feedback Regulation' },
+  { file: '029-02.17-anticipatory-regulation.md', label: '029 Anticipatory Regulation' },
+  { file: '030-02.18-allostasis.md', label: '030 Allostasis' },
+  { file: '031-02.19-circadian-organization-of-autonomic-function.md', label: '031 Circadian Organization of Autonomic Function' },
+  { file: '032-02.20-autonomic-regulation-across-sleep-and-wakefulness.md', label: '032 Autonomic Regulation Across Sleep and Wakefulness' },
 ];

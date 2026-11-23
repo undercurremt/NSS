@@ -50,4 +50,9 @@ window.BOOK_PAGES = [
   { file: '048-04.03-central-interoceptive-processing.md', label: "048 Central Interoceptive Processing" },
   { file: '049-04.04-conscious-bodily-sensations.md', label: "049 Conscious Bodily Sensations" },
   { file: '050-04.05-interoceptive-attention.md', label: "050 Interoceptive Attention" },
+  { file: '051-04.06-interoceptive-accuracy.md', label: "051 Interoceptive Accuracy" },
+  { file: '052-04.07-interoceptive-beliefs-and-confidence.md', label: "052 Interoceptive Beliefs and Confidence" },
+  { file: '053-04.08-prediction-in-interoceptive-experience.md', label: "053 Prediction in Interoceptive Experience" },
+  { file: '054-04.09-bodily-sensation-and-interpretation.md', label: "054 Bodily Sensation and Interpretation" },
+  { file: '055-04.10-interoception-and-regulatory-behavior.md', label: "055 Interoception and Regulatory Behavior" },
 ];

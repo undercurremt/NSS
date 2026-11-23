@@ -10,11 +10,11 @@ This is a NEW consecutive package, not a reissue of Lessons 001–005.
 
 | Lesson | Concept | Filename |
 |---|---|---|
-| 006 / 01.06 | The Vagus Nerve | [006-01.06-the-vagus-nerve.md](006-01.06-the-vagus-nerve.md) |
-| 007 / 01.07 | The Enteric Nervous System | [007-01.07-the-enteric-nervous-system.md](007-01.07-the-enteric-nervous-system.md) |
-| 008 / 01.08 | Autonomic Neurotransmission | [008-01.08-autonomic-neurotransmission.md](008-01.08-autonomic-neurotransmission.md) |
-| 009 / 01.09 | Organ-Specific Autonomic Control | [009-01.09-organ-specific-autonomic-control.md](009-01.09-organ-specific-autonomic-control.md) |
-| 010 / 01.10 | Local Autonomic Reflex Circuits | [010-01.10-local-autonomic-reflex-circuits.md](010-01.10-local-autonomic-reflex-circuits.md) |
+| 006 / 01.06 | The Vagus Nerve | [006-01.06-the-vagus-nerve.md](/006-01.06-the-vagus-nerve.md) |
+| 007 / 01.07 | The Enteric Nervous System | [007-01.07-the-enteric-nervous-system.md](/007-01.07-the-enteric-nervous-system.md) |
+| 008 / 01.08 | Autonomic Neurotransmission | [008-01.08-autonomic-neurotransmission.md](/008-01.08-autonomic-neurotransmission.md) |
+| 009 / 01.09 | Organ-Specific Autonomic Control | [009-01.09-organ-specific-autonomic-control.md](/009-01.09-organ-specific-autonomic-control.md) |
+| 010 / 01.10 | Local Autonomic Reflex Circuits | [010-01.10-local-autonomic-reflex-circuits.md](/010-01.10-local-autonomic-reflex-circuits.md) |
 
 ### Publication and links
 

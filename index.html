@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Nervous System — One Concept at a Time</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #0066cc;
+    }
+    .sidebar-nav a {
+      font-size: 0.92em;
+    }
+    .sidebar > h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      padding: 1rem 0.5rem;
+      line-height: 1.4;
+    }
+    .markdown-section h1 {
+      font-size: 2rem;
+    }
+    .markdown-section h2 {
+      border-bottom: 2px solid #f0f0f0;
+      padding-bottom: 0.4rem;
+      margin-top: 2.5rem;
+    }
+    .markdown-section blockquote {
+      border-left: 4px solid #0066cc;
+      background: #f5f9ff;
+      padding: 0.8rem 1rem;
+      border-radius: 0 4px 4px 0;
+    }
+    .book-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #eee; }
+    .book-nav-link { display: flex; flex-direction: column; max-width: 48%; padding: 0.8rem 1rem; border: 1px solid #e5e5e5; border-radius: 6px; text-decoration: none !important; }
+    .book-nav-link:hover { border-color: var(--theme-color); }
+    .book-nav-link.next { margin-left: auto; text-align: right; }
+    .book-nav-link small { color: #888; }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'The Nervous System<br><small>One Concept at a Time</small>',
+      repo: 'https://github.com/undercurremt/NSS',
+      homepage: 'README.md',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 0, // sidebar shows lesson titles only, not the headings inside each page
+      auto2top: true,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search the course...',
+        noData: 'No results found.',
+        depth: 3,
+      },
+      themeColor: '#0066cc',
+      coverpage: false,
+      plugins: [
+        // ← Previous / Next → at the bottom of each lesson
+        function (hook, vm) {
+          hook.afterEach(function (html, next) {
+            var pages = window.BOOK_PAGES || []
+            var norm = function (s) { return String(s || '').replace(/^\//, '').replace(/\.md$/, '') }
+            var cur = norm(vm.route.file)
+            var i = pages.findIndex(function (p) { return norm(p.file) === cur })
+            if (i === -1) return next(html)
+            var link = function (p, cls, dir) {
+              return p ? '<a class="book-nav-link ' + cls + '" href="#/' + norm(p.file) + '"><small>' + dir +
+                '</small><span>' + p.label + '</span></a>' : '<span></span>'
+            }
+            next(html + '<nav class="book-nav">' + link(pages[i - 1], 'prev', '← Previous') +
+              link(pages[i + 1], 'next', 'Next →') + '</nav>')
+          })
+        },
+      ],
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="book-pages.js"></script>
+</body>
+</html>

@@ -35,5 +35,11 @@
   * [032 Autonomic Regulation Across Sleep and Wakefulness](/032-02.20-autonomic-regulation-across-sleep-and-wakefulness.md)
   * [033 Autonomic Regulation During Exercise](/033-02.21-autonomic-regulation-during-exercise.md)
   * [034 Voluntary Breathing and Autonomic Interactions](/034-02.22-voluntary-breathing-and-autonomic-interactions.md)
+* **Part III — Central Autonomic Integration**
+  * [035 Brainstem Autonomic Integration](/035-03.01-brainstem-autonomic-integration.md)
+  * [036 Central Processing of Visceral Signals](/036-03.02-central-processing-of-visceral-signals.md)
+  * [037 Hypothalamic Regulation](/037-03.03-hypothalamic-regulation.md)
+  * [038 The Central Autonomic Network](/038-03.04-the-central-autonomic-network.md)
+  * [039 Insular Contributions to Bodily Regulation](/039-03.05-insular-contributions-to-bodily-regulation.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

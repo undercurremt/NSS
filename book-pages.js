@@ -34,4 +34,9 @@ window.BOOK_PAGES = [
   { file: '032-02.20-autonomic-regulation-across-sleep-and-wakefulness.md', label: '032 Autonomic Regulation Across Sleep and Wakefulness' },
   { file: '033-02.21-autonomic-regulation-during-exercise.md', label: '033 Autonomic Regulation During Exercise' },
   { file: '034-02.22-voluntary-breathing-and-autonomic-interactions.md', label: '034 Voluntary Breathing and Autonomic Interactions' },
+  { file: '035-03.01-brainstem-autonomic-integration.md', label: '035 Brainstem Autonomic Integration' },
+  { file: '036-03.02-central-processing-of-visceral-signals.md', label: '036 Central Processing of Visceral Signals' },
+  { file: '037-03.03-hypothalamic-regulation.md', label: '037 Hypothalamic Regulation' },
+  { file: '038-03.04-the-central-autonomic-network.md', label: '038 The Central Autonomic Network' },
+  { file: '039-03.05-insular-contributions-to-bodily-regulation.md', label: '039 Insular Contributions to Bodily Regulation' },
 ];

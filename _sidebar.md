@@ -47,5 +47,11 @@
   * [043 Neuroimmune Communication](/043-03.09-neuroimmune-communication.md)
   * [044 Thirst and Fluid Homeostasis](/044-03.10-thirst-and-fluid-homeostasis.md)
   * [045 Hunger and Satiety Regulation](/045-03.11-hunger-and-satiety-regulation.md)
+* **Part IV — Interoception & Bodily Experience**
+  * [046 What Is Interoception?](/046-04.01-what-is-interoception.md)
+  * [047 Visceral Sensory Transduction](/047-04.02-visceral-sensory-transduction.md)
+  * [048 Central Interoceptive Processing](/048-04.03-central-interoceptive-processing.md)
+  * [049 Conscious Bodily Sensations](/049-04.04-conscious-bodily-sensations.md)
+  * [050 Interoceptive Attention](/050-04.05-interoceptive-attention.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

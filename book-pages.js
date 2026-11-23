@@ -45,4 +45,9 @@ window.BOOK_PAGES = [
   { file: '043-03.09-neuroimmune-communication.md', label: '043 Neuroimmune Communication' },
   { file: '044-03.10-thirst-and-fluid-homeostasis.md', label: '044 Thirst and Fluid Homeostasis' },
   { file: '045-03.11-hunger-and-satiety-regulation.md', label: '045 Hunger and Satiety Regulation' },
+  { file: '046-04.01-what-is-interoception.md', label: "046 What Is Interoception?" },
+  { file: '047-04.02-visceral-sensory-transduction.md', label: "047 Visceral Sensory Transduction" },
+  { file: '048-04.03-central-interoceptive-processing.md', label: "048 Central Interoceptive Processing" },
+  { file: '049-04.04-conscious-bodily-sensations.md', label: "049 Conscious Bodily Sensations" },
+  { file: '050-04.05-interoceptive-attention.md', label: "050 Interoceptive Attention" },
 ];

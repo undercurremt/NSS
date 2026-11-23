@@ -33,5 +33,7 @@
   * [030 Allostasis](/030-02.18-allostasis.md)
   * [031 Circadian Organization of Autonomic Function](/031-02.19-circadian-organization-of-autonomic-function.md)
   * [032 Autonomic Regulation Across Sleep and Wakefulness](/032-02.20-autonomic-regulation-across-sleep-and-wakefulness.md)
+  * [033 Autonomic Regulation During Exercise](/033-02.21-autonomic-regulation-during-exercise.md)
+  * [034 Voluntary Breathing and Autonomic Interactions](/034-02.22-voluntary-breathing-and-autonomic-interactions.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

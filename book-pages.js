@@ -32,4 +32,6 @@ window.BOOK_PAGES = [
   { file: '030-02.18-allostasis.md', label: '030 Allostasis' },
   { file: '031-02.19-circadian-organization-of-autonomic-function.md', label: '031 Circadian Organization of Autonomic Function' },
   { file: '032-02.20-autonomic-regulation-across-sleep-and-wakefulness.md', label: '032 Autonomic Regulation Across Sleep and Wakefulness' },
+  { file: '033-02.21-autonomic-regulation-during-exercise.md', label: '033 Autonomic Regulation During Exercise' },
+  { file: '034-02.22-voluntary-breathing-and-autonomic-interactions.md', label: '034 Voluntary Breathing and Autonomic Interactions' },
 ];

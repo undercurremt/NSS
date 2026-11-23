@@ -46,5 +46,6 @@
   * [042 Neuroendocrine Coordination](/042-03.08-neuroendocrine-coordination.md)
   * [043 Neuroimmune Communication](/043-03.09-neuroimmune-communication.md)
   * [044 Thirst and Fluid Homeostasis](/044-03.10-thirst-and-fluid-homeostasis.md)
+  * [045 Hunger and Satiety Regulation](/045-03.11-hunger-and-satiety-regulation.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

@@ -44,4 +44,5 @@ window.BOOK_PAGES = [
   { file: '042-03.08-neuroendocrine-coordination.md', label: '042 Neuroendocrine Coordination' },
   { file: '043-03.09-neuroimmune-communication.md', label: '043 Neuroimmune Communication' },
   { file: '044-03.10-thirst-and-fluid-homeostasis.md', label: '044 Thirst and Fluid Homeostasis' },
+  { file: '045-03.11-hunger-and-satiety-regulation.md', label: '045 Hunger and Satiety Regulation' },
 ];

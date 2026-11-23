@@ -10,5 +10,7 @@
   * [008 Autonomic Neurotransmission](/008-01.08-autonomic-neurotransmission.md)
   * [009 Organ-Specific Autonomic Control](/009-01.09-organ-specific-autonomic-control.md)
   * [010 Local Autonomic Reflex Circuits](/010-01.10-local-autonomic-reflex-circuits.md)
+  * [011 Autonomic Reflex Organization](/011-01.11-autonomic-reflex-organization.md)
+  * [012 Sympathetic–Parasympathetic Coordination](/012-01.12-sympathetic-parasympathetic-coordination.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

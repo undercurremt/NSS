@@ -10,4 +10,6 @@ window.BOOK_PAGES = [
   { file: '008-01.08-autonomic-neurotransmission.md', label: '008 Autonomic Neurotransmission' },
   { file: '009-01.09-organ-specific-autonomic-control.md', label: '009 Organ-Specific Autonomic Control' },
   { file: '010-01.10-local-autonomic-reflex-circuits.md', label: '010 Local Autonomic Reflex Circuits' },
+  { file: '011-01.11-autonomic-reflex-organization.md', label: '011 Autonomic Reflex Organization' },
+  { file: '012-01.12-sympathetic-parasympathetic-coordination.md', label: '012 Sympathetic–Parasympathetic Coordination' },
 ];

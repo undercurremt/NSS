@@ -4,7 +4,7 @@
 
 **Език:** български (оригинални английски заглавия от индекса)  
 **Нормативна основа:** *Master Curriculum Control v2.0*, 21.11.2026, Part I, pp. 2–6.  
-**Версия на пакета:** 2026-11-23 · revision 2 (substantive rewrite).  
+**Версия на пакета:** 2026-11-23 · revision 3 (verified correction of revision 2; not a new substantive rewrite).  
 **Предназначение:** самостоятелни Markdown уроци за GitHub/Docsify.
 
 | № | ID | Заглавие | Водеща концепция | Предпоставки |
@@ -32,3 +32,10 @@
 ### Инсталиране
 
 Разархивирай файловете в една директория на GitHub репозитория. Запази имената, тъй като Markdown връзките са относителни. Този пакет не променя съществуващите файлове `index.html`, `_sidebar.md` или настройките на Docsify. За навигация от съществуващ sidebar добави връзка към първия урок или към този README.
+
+## Revision history
+
+- **Revision 3 — 2026-11-23:** Corrected the anatomical synonym in Lesson 004 from `преколатерални` to `колатерални`; updated release metadata; included SHA-256 manifest and an explicit correction log. **Lessons 001, 002, 003 and 005 are byte-identical to revision 2.** This release does **not** claim a fresh scientific rewrite.
+- **Revision 2 — 2026-11-23:** Previous substantive rewrite.
+
+See [CHANGELOG.md](CHANGELOG.md), [SHA256SUMS.txt](SHA256SUMS.txt) and [QUALITY_REVIEW.md](QUALITY_REVIEW.md).

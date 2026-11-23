@@ -1,3 +1,5 @@
+> **Release note (revision 3, 2026-11-23):** This review was drafted for revision 2. Revision 3 corrects one anatomical term in Lesson 004 and adds transparent release metadata. No fresh end-to-end literature audit was performed. The partial checks and limitations below remain applicable; do not treat the revision number as evidence of improved scientific completeness.
+
 # Quality Review — Lessons 001–005 / Master Curriculum Control v2.0
 
 **Проверка:** 23.11.2026. **Контролна версия:** Master Curriculum Control v2.0 от 21.11.2026. **База за редакцията:** предишният ZIP `NS_Lessons_001-005_v2.0_GitHub.zip`, наличен локално при разработването. **Цел:** документирана научна, педагогическа и техническа проверка, без автоматичен PASS.

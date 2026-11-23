@@ -12,4 +12,9 @@ window.BOOK_PAGES = [
   { file: '010-01.10-local-autonomic-reflex-circuits.md', label: '010 Local Autonomic Reflex Circuits' },
   { file: '011-01.11-autonomic-reflex-organization.md', label: '011 Autonomic Reflex Organization' },
   { file: '012-01.12-sympathetic-parasympathetic-coordination.md', label: '012 Sympathetic–Parasympathetic Coordination' },
+  { file: '013-02.01-autonomic-control-of-heart-rate.md', label: '013 Autonomic Control of Heart Rate' },
+  { file: '014-02.02-autonomic-control-of-blood-vessels.md', label: '014 Autonomic Control of Blood Vessels' },
+  { file: '015-02.03-the-baroreflex.md', label: '015 The Baroreflex' },
+  { file: '016-02.04-autonomic-responses-to-standing.md', label: '016 Autonomic Responses to Standing' },
+  { file: '017-02.05-automatic-respiratory-control.md', label: '017 Automatic Respiratory Control' },
 ];

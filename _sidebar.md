@@ -12,5 +12,11 @@
   * [010 Local Autonomic Reflex Circuits](/010-01.10-local-autonomic-reflex-circuits.md)
   * [011 Autonomic Reflex Organization](/011-01.11-autonomic-reflex-organization.md)
   * [012 Sympathetic–Parasympathetic Coordination](/012-01.12-sympathetic-parasympathetic-coordination.md)
+* **Part II — Autonomic Regulation of Body Functions**
+  * [013 Autonomic Control of Heart Rate](/013-02.01-autonomic-control-of-heart-rate.md)
+  * [014 Autonomic Control of Blood Vessels](/014-02.02-autonomic-control-of-blood-vessels.md)
+  * [015 The Baroreflex](/015-02.03-the-baroreflex.md)
+  * [016 Autonomic Responses to Standing](/016-02.04-autonomic-responses-to-standing.md)
+  * [017 Automatic Respiratory Control](/017-02.05-automatic-respiratory-control.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

@@ -1,41 +1,23 @@
 # The Nervous System — One Concept at a Time
 
-## Part I: Foundations of Autonomic Regulation · Lessons 001–005
+## Foundations of Autonomic Regulation · Lessons 001–005
 
-**Език:** български (оригинални английски заглавия от индекса)  
-**Нормативна основа:** *Master Curriculum Control v2.0*, 21.11.2026, Part I, pp. 2–6.  
-**Версия на пакета:** 2026-11-23 · revision 3 (verified correction of revision 2; not a new substantive rewrite).  
-**Предназначение:** самостоятелни Markdown уроци за GitHub/Docsify.
+**Master Curriculum Control v2.0 · Revision 4 — Content Audit (2026-11-23)**
 
-| № | ID | Заглавие | Водеща концепция | Предпоставки |
-|---|---|---|---|---|
-| 001 | 01.01 | [What Is Autonomic Regulation?](001-01.01-what-is-autonomic-regulation.md) | Автономна регулация | — |
-| 002 | 01.02 | [Autonomic and Somatic Nervous Systems](002-01.02-autonomic-and-somatic-nervous-systems.md) | Функционално разграничение ANS/соматична система | 01.01 |
-| 003 | 01.03 | [Visceral Afferent and Efferent Signaling](003-01.03-visceral-afferent-and-efferent-signaling.md) | Двупосочна висцерална комуникация | 01.02 |
-| 004 | 01.04 | [The Sympathetic Nervous System](004-01.04-the-sympathetic-nervous-system.md) | Симпатикова организация | 01.03 |
-| 005 | 01.05 | [The Parasympathetic Nervous System](005-01.05-the-parasympathetic-nervous-system.md) | Парасимпатикова организация | 01.03, 01.04 |
+Five sequential Bulgarian-language Markdown lessons with canonical English lesson titles and verified syllabus order.
 
-### Как да четеш курса
+| ID | File | Topic |
+|---|---|---|
+| 01.01 | [001](001-01.01-what-is-autonomic-regulation.md) | What Is Autonomic Regulation? |
+| 01.02 | [002](002-01.02-autonomic-and-somatic-nervous-systems.md) | Autonomic and Somatic Nervous Systems |
+| 01.03 | [003](003-01.03-visceral-afferent-and-efferent-signaling.md) | Visceral Afferent and Efferent Signaling |
+| 01.04 | [004](004-01.04-the-sympathetic-nervous-system.md) | The Sympathetic Nervous System |
+| 01.05 | [005](005-01.05-the-parasympathetic-nervous-system.md) | The Parasympathetic Nervous System |
 
-Всеки урок поставя една концепция в центъра. Научните статуси **[A] established, [B] supported model, [C] contested, [D] metaphor** се отнасят до конкретни твърдения. Източниците с DOI са непосредствено до фактическите положения; библиографският списък в края на урока улеснява проверката. Пътищата към следващите уроци са относителни, така че GitHub Markdown и Docsify могат да използват същите файлове.
+### Quality disclosure
 
-Седемте публични секции от Lesson Blueprint v2.0 присъстват във всеки файл: **The Concept, The Mechanism, Body Signals & Experience, Real-Life Example, Evidence & Limits, Observation / Practice, Takeaway & Bridge**. Вътрешните контроли *Lesson identity & scope*, *Learning Outcomes* и *Evidence Map* са документирани отделно в [QUALITY_REVIEW.md](QUALITY_REVIEW.md). Когато не е научно обоснована безопасна практика, е мотивирано защо не се предлага такава.
+This is a **substantive revision**, not a cache-busting rename: each lesson contains a new causal walkthrough. Lesson 005 additionally presents published opposing positions on the debated sacral classification. See [CHANGELOG](CHANGELOG.md) and [QUALITY_REVIEW](QUALITY_REVIEW.md) for specific corrections, the evidence map and outstanding limitations. **Scientific release assessment: CONDITIONAL, not unconditional PASS.** DOI/PMID are supplied close to claims; verified metadata does not imply full-text audit of every sentence.
 
-### Предметни граници
+### Repository instructions
 
-Това **не е медицински курс**. Няма самодиагностика, лечение или инструкции за физиологични маневри. Предметът е как автономната неврофизиология се свързва с функции, телесни усещания, условия на средата и поведение. Уроци 01.06–01.12 и следващите части ще разглеждат в собствената си последователност вагус, ентерални вериги, невротрансмисия, органна специфичност, рефлекси и взаимодействие между клоновете. Този пакет не представя ранните обяснения за заместител на тези теми.
-
-### Научна и редакционна проверка
-
-Виж [QUALITY_REVIEW.md](QUALITY_REVIEW.md) за: проверките, фактическата матрица с доказателства и ограничения, промените спрямо базовата версия, както и откритите остатъчни ограничения. **Няма автоматично научно „PASS“ и няма твърдение за независима експертна рецензия.**
-
-### Инсталиране
-
-Разархивирай файловете в една директория на GitHub репозитория. Запази имената, тъй като Markdown връзките са относителни. Този пакет не променя съществуващите файлове `index.html`, `_sidebar.md` или настройките на Docsify. За навигация от съществуващ sidebar добави връзка към първия урок или към този README.
-
-## Revision history
-
-- **Revision 3 — 2026-11-23:** Corrected the anatomical synonym in Lesson 004 from `преколатерални` to `колатерални`; updated release metadata; included SHA-256 manifest and an explicit correction log. **Lessons 001, 002, 003 and 005 are byte-identical to revision 2.** This release does **not** claim a fresh scientific rewrite.
-- **Revision 2 — 2026-11-23:** Previous substantive rewrite.
-
-See [CHANGELOG.md](CHANGELOG.md), [SHA256SUMS.txt](SHA256SUMS.txt) and [QUALITY_REVIEW.md](QUALITY_REVIEW.md).
+Copy this folder's files into the appropriate GitHub directory. Existing repository files were not downloaded or compared in this run; review `git diff` before committing. For file integrity, use `SHA256SUMS.txt` against the extracted files. `README.md` is explicit Revision 4; a ZIP with `revision 2` or `преколатерални` is not this package.

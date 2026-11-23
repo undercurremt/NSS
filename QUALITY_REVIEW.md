@@ -1,86 +1,61 @@
-> **Release note (revision 3, 2026-11-23):** This review was drafted for revision 2. Revision 3 corrects one anatomical term in Lesson 004 and adds transparent release metadata. No fresh end-to-end literature audit was performed. The partial checks and limitations below remain applicable; do not treat the revision number as evidence of improved scientific completeness.
+# Quality Review — Revision 4 / Content Audit
 
-# Quality Review — Lessons 001–005 / Master Curriculum Control v2.0
+**Date:** 2026-11-23. **Normative control:** Master Curriculum Control v2.0 (21 Nov 2026), lesson index page 6; Blueprint page 3; evidence standards page 4. **Source baseline:** actual local Revision 3 ZIP, not a guess about GitHub contents.
 
-**Проверка:** 23.11.2026. **Контролна версия:** Master Curriculum Control v2.0 от 21.11.2026. **База за редакцията:** предишният ZIP `NS_Lessons_001-005_v2.0_GitHub.zip`, наличен локално при разработването. **Цел:** документирана научна, педагогическа и техническа проверка, без автоматичен PASS.
+## Decision
 
-## 1. Решение и критерии
+**CONDITIONAL / substantive editorial improvement, NOT an unconditional scientific PASS.** We performed a targeted claim-to-source audit and corrected a concrete imbalance in Lesson 005. Five lessons received additional developed mechanistic walkthroughs. Bibliographic identifiers mentioned in the new audit were checked against public PubMed/publisher records. This is NOT an exhaustive sentence-by-sentence full-text literature audit and NOT an independent specialist peer review. Publishing without that further review is an editorial decision, not proof of scientific completeness.
 
-**Решение: EDITORIAL RELEASE — WITH DISCLOSED EVIDENCE LIMITATIONS.** Петте файла са създадени, значително преработени, с проверена структура и с непосредствени цитати към конкретните основни факти. Това не е сертификат за безгрешност и **не е независим научен peer review**. Пълният текст на всяка използвана публикация не е прегледан ред по ред; когато източникът е бил достъпен само чрез метаданни и резюме, доказателствената сила е отчетена по-консервативно. Това ограничение **не се маскира като PASS**.
+## Concrete findings and corrections
 
-**Публикационно условие:** пакетът може да бъде качен като образователна редакция v2.0 с този Quality Review. Ако стандартът за „финален“ продукт изисква независима експертна проверка на всяко изречение спрямо пълните оригинални статии, той **не е покрит**; не се твърди друго.
+| Lesson | Prior gap | Revision 4 action | Assessment |
+|---|---|---|---|
+| 001 | Connections between changing demand, effector response, and observation were stated but not developed through a multi-level example | Added a staged causal walkthrough and counterexample that organ outputs need not change together | Improved; illustrative, not experimental proof |
+| 002 | The one-neuron/two-neuron distinction was accurate but relatively static | Followed motor commands to specific effectors and separated automatic behavior from anatomical motor route | Improved |
+| 003 | Bidirectional communication was laid out but readers could still merge sensory input with motor output | Added five distinct stages and an explicit critique of one-to-one reflex inference | Improved; no full reflex circuit taught prematurely |
+| 004 | Ganglia were named but the consequences of different branching routes were under-explained | Added paravertebral, prevertebral and adrenal-medulla route comparison, maintaining 01.08 scope boundary | Improved; specialized transmitter pharmacology deferred |
+| 005 | Sacral reclassification evidence was inadequately balanced by an explicit opposing academic position | Added named published counterarguments (2017, 2018), clarified species/model limitations, and expanded the cranial-route mechanism | Corrected key scientific balance issue |
 
-## 2. Реални проверки
+## Internal Blueprint — identity, learning outcomes, scope
 
-| Контрол | Резултат | Какво действително е проверено |
-|---|---|---|
-| Идентичност на петте урока | **PASS** | Заглавия, ID, водещи концепции и предпоставки срещу Master Index v2.0, стр. 6 |
-| Една водеща концепция | **PASS — editorial** | 001 регулация; 002 моторни системи; 003 посока на висцерални сигнали; 004 симпатикови пътища; 005 парасимпатикови пътища |
-| Публикувани секции | **PASS — script** | Седемте публични секции присъстват и са подредени във всеки урок |
-| Learning Outcomes | **PASS — editorial** | Изведени и съпоставени със задачите за самопроверка по-долу |
-| Evidence Map | **PARTIAL — claims sampled** | Проверени са ключови групи твърдения спрямо академични записи/обзори. Не всяко отделно изречение е независимо проверено в пълната литература |
-| Идентификатори DOI/PMID | **PASS — checked sample** | Идентификаторите на водещите публикации са сверени с PubMed/издателски записи; няма измислени DOI за въведените източници |
-| Прецизност на автори | **PASS — errors corrected** | Коригирани две неправилни първоначални атрибуции: Grundy вместо Gebhart (2002); Iriki & Simon вместо Jänig (2012) |
-| Физиологично причинно обяснение | **PASS — editorial** | За всеки урок има последователност от условия, нервни пътища, ефектори, резултати и ограничения |
-| Статуси A/B/C/D | **PASS — editorial** | Разграничени установена организация, учебни модели, спорна сакрална класификация и метафори |
-| Human vs animal evidence | **PASS with limits** | 003 и 005 изрично отбелязват принос и ограничения на животинските анатомични/развойни данни |
-| Интероцептивни и психологически изводи | **PASS — editorial** | Няма пряк извод за емоция или безопасност от пулс, потене, „вагус“ или усещане |
-| Практики | **PASS — editorial** | 001 предлага само наблюдение с ограничения; 002–005 мотивират липса на практика; няма обещание за лечебен/регулаторен ефект |
-| Предварително преподаване | **PASS — editorial** | Вагус, автономни медиатори, органна физиология, рефлекси, стрес и интероцепция са само маркирани като по-късни уроци |
-| Независим академичен peer review | **NOT PERFORMED** | Не се твърди външна експертна проверка |
+| ID | Leading concept | Internal verifiable learning outcome | Dependency | Deferred |
+|---|---|---|---|---|
+| 01.01 | Autonomic regulation | Differentiate signal, effector, function and experience using one contextual example | None | Specific reflexes, homeostasis and allostasis |
+| 01.02 | Somatic vs autonomic motor output | Identify route and effector; explain why automatic breathing is not automatically autonomic motor innervation | 01.01 | Detailed respiratory control |
+| 01.03 | Visceral afference/efference | Trace both directions, distinguish sensory input from motor output and conscious experience | 01.02 | Visceral reflex architecture, conscious interoception |
+| 01.04 | Sympathetic organization | Trace thoracolumbar and three peripheral route variants; reject a global fight-or-flight definition | 01.03 | Transmitter pharmacology, stress response |
+| 01.05 | Parasympathetic organization | Trace classical cranial pathways; distinguish anatomical evidence from contested sacral naming | 01.03, 01.04 | Full vagus anatomy and organ-specific receptor effects |
 
-## 3. Вътрешен Blueprint — идентичност и Learning Outcomes
+## Evidence Map — audited claim groups (claim-status, not author-status)
 
-| Урок | Водеща концепция / граница | Проверим резултат от ученето |
-|---|---|---|
-| 001 | Автономна регулация; без подробен барорефлекс или алостаза | Определя ANS регулация и различава нервен сигнал, ефектор, резултат и преживяване |
-| 002 | Моторна организация; без разгръщане на физиология на невромускулна връзка | Различава соматичен от автономен моторен път и обяснява защо „волево/неволево“ не е критерий |
-| 003 | Аферентно/еферентно; без преподаване на централна интероцепция | Проследява посоката орган↔ЦНС и разграничава аферентен сигнал от съзнателно усещане |
-| 004 | Симпатикова организация; без детайли за стрес, адренални хормони и рецептори | Обяснява гръдно-поясен произход, ганглийна организация и органно-специфичен изход |
-| 005 | Парасимпатикова организация; без самостоятелен урок за вагуса | Обяснява черепните пътища, типичната позиция на ганглиите и границата на сакралната класификация |
+| Claim | Evidence / DOI | Data type | Status | Limit and audit result |
+|---|---|---|---|---|
+| ANS controls non-skeletal visceral effectors, multiple routes | Wehrwein 2016, `10.1002/cphy.c150037`; McCorry 2007, `10.5688/aj710478` | Academic reviews | A | Reviewed bibliographic identity; no claim all organs depend exclusively on ANS |
+| Organ-specific sympathetic outputs | Morrison 2001, `10.1152/ajpregu.2001.281.3.R683`; Gibbins 2013, `10.4161/org.25126` | Physiological and anatomical reviews | A | Not a universal autonomic activation index |
+| Motor systems differ in typical effector and relay | McCorry 2007; Wehrwein 2016 | Academic reviews | A | Does not imply voluntary/involuntary dichotomy |
+| Visceral inputs and autonomic efferents are different directions | Berthoud & Neuhuber 2000, `10.1016/S1566-0702(00)00215-0`; Berthoud et al. 2025, `10.1016/j.conb.2025.103058` | Animal-heavy anatomical and integrative reviews | A | Detailed afferent maps are not direct evidence of human conscious sensations |
+| Sensation cannot identify one precise route | Craig 2002, `10.1038/nrn894`; Berthoud et al. 2025 | Model/review | B | Mechanistic plausibility, not a direct human decoding test |
+| Sympathetic chain and collateral routes | Wehrwein 2016; McCorry 2007 | Academic reviews | A | A teaching simplification; exceptions include adrenal medulla |
+| Distinct sympathetic outputs during ordinary functions | Morrison 2001; Iriki & Simon 2012, `10.1007/s12576-012-0208-9` | Review of human/animal physiology | A | Does not assign emotions from skin or heart signals |
+| Sacral autonomic naming may be changed on molecular/developmental criteria | Espinosa-Medina et al. 2016, `10.1126/science.aah5454` | Primary mouse study | C for general reclassification | The empirical animal data do not automatically settle human nomenclature |
+| Sacral relabeling has substantive published objections | Neuhuber et al. 2017, `10.1002/ar.23600`; Jänig et al. 2018, `10.1007/s10286-017-0491-x` | Expert argument/commentary | C | Counterpositions are not independent experimental disproof |
+| „Fight or flight“ / „rest and digest“ as universal descriptions | Gibbins 2013; Wehrwein 2016 | Conceptual simplifications compared with physiology | D | Not mechanistic laws |
 
-## 4. Вътрешен Evidence Map — проверявани ключови твърдения
+### Verification boundary
 
-**Вид доказателство:** `review` = академичен обзор/синтез; `primary / mouse` = първично изследване с животински модел; `conceptual` = теоретична/терминологична аргументация. **Статусът е на твърдението**, не на автора.
+The identities/DOIs for Wehrwein, Gibbins, Morrison, Iriki & Simon, Berthoud et al. (2025), Espinosa-Medina, Neuhuber et al. and Jänig et al. were checked against public indexed publication records during this edit. Other citations are retained from Revision 3; this review **does not claim** their full text was newly inspected. Primary-versus-review labeling follows article type where observable. The brief academic comments on the sacral debate are explicitly marked as positions, not experiments. Do not upgrade claim-status merely because multiple authors agree.
 
-| ID | Проверявано твърдение | Научна опора (DOI) | Вид | Статус | Граница |
-|---|---|---|---|---|---|
-| 001-1 | Автономни моторни пътища влияят на висцерални ефектори | 10.1002/cphy.c150037; 10.5688/aj710478 | review | A | Не е изключителен контрол на органа |
-| 001-2 | Централна координация свързва автономни и други реакции | 10.1016/S0025-6196(12)62272-1 | review/conceptual | A/B | Не един-единствен мозъчен „център“ |
-| 001-3 | Органните изходи могат да бъдат диференцирани | 10.4161/org.25126; 10.1152/ajpregu.2001.281.3.R683 | review | A | Не „общ процент автономна активност“ |
-| 001-4 | Само усещане или пулс не определя специфична емоция | 10.1038/nrn894; 10.4161/org.25126 | review/model | B | Няма пряко психометрично изпитване в тези източници |
-| 002-1 | Соматичен изход → скелетен мускул | 10.5688/aj710478 | review | A | Типичен моторен план |
-| 002-2 | Типичен автономен изход → преганглиен/постганглиен неврон | 10.1002/cphy.c150037 | review | A | Има изключения |
-| 002-3 | Автоматичност на дишане ≠ автономна мускулна инервация | 10.5688/aj710478; 10.1113/JP288973 | review/conceptual | A/B | Дихателната регулация ще се изучава по-късно |
-| 003-1 | Висцералните аференти са насочени към ЦНС | 10.1016/S1566-0702(00)00215-0 | review / animal anatomy | A | Вътрешно разнообразие на рецептори |
-| 003-2 | Вагални и спинални пътища носят различни висцерални аспекти | 10.1136/gut.51.suppl_1.i2; 10.1016/j.conb.2025.103058 | review | A | Зависимо от орган и стимул |
-| 003-3 | Наличен аферентен сигнал ≠ осъзнато усещане | 10.1038/nrn894; 10.1016/j.conb.2025.103058 | review/model | B | Не се отъждествяват периферна активност и преживяване |
-| 004-1 | Гръдно-поясен произход и периферни ганглии | 10.1002/cphy.c150037; 10.5688/aj710478 | review | A | Сегментните граници варират в описанията |
-| 004-2 | Симпатиковите изходи са функционално различими | 10.1152/ajpregu.2001.281.3.R683; 10.1007/s12576-012-0208-9 | review / human & animal data | A | Няма универсален маркер |
-| 004-3 | „Fight or flight“ не покрива ежедневни симпатикови функции | 10.4161/org.25126; 10.5688/aj710478 | review | A/D | Метафора, не пълен механизъм |
-| 005-1 | Черепни моторни парасимпатикови маршрути III/VII/IX/X | 10.5688/aj710478; 10.1002/cphy.c150037 | review | A | Не всички влакна в нерва са моторни |
-| 005-2 | Много парасимпатикови ганглии са близо до целта | 10.1002/cphy.c150037 | review | A | Типична, не абсолютна организация |
-| 005-3 | Сакралните пътища имат оспорвана парасимпатикова класификация | 10.1126/science.aah5454; 10.1113/JP288973 | primary / mouse; conceptual | C | Няма единен консенсус от тези данни |
-| 005-4 | Вагусът съдържа и сетивни влакна | 10.1016/S1566-0702(00)00215-0; 10.1016/j.conb.2025.103058 | review | A | Не се свежда до „успокояващ нерв“ |
+## Safety and teaching scope
 
-### Научен извод от проверката
+001 includes low-risk observation without a claim of training efficacy. 002–005 use conceptual checks in place of physiological manipulations; no vagal stimulation, carotid pressure, breath-holding or diagnostic procedures. No emotional state is inferred from single peripheral output. Neurotransmitter mechanisms are held for 01.08; full autonomic reflex organization for 01.11; vagus specifics for 01.06; functional sympathetic–parasympathetic coordination for 01.12.
 
-Статус **A** тук е обоснован основно от утвърдена физиологична и анатомична литература; той **не означава**, че в този проект е осъществена самостоятелна експериментална репликация. Статус **B** е нужен при интерпретационни рамки и при преминаване от периферен сигнал към преживяване. Статус **C** е нужен в 005 за конкуриращите се критерии при класифицирането на сакралните пътища. Статус **D** обозначава учебни блок-схеми и „fight or flight“/„rest and digest“.
+## Automated verification vs editorial verification
 
-## 5. Педагогическа и механистична редакция спрямо базовия пакет
+Structural script: five ordered files; seven published sections each; internal linked Markdown paths resolve; no obsolete `преколатерални`; each file includes a new mechanistic section; nonempty Markdown; ZIP integrity tested. **These automated results do not certify scientific accuracy.**
 
-- **001:** разширена причинна верига, разлика между резултат, нервно влияние и усещане; добавени ограничения към измеримото.
-- **002:** изяснен двуневронен автономен път; включен важният контрапример с автоматичното дишане и скелетната диафрагма.
-- **003:** разграничени рецепторна трансдукция, аферентно носене, централна обработка и еферентен моторен отговор; добавена граница на интероцептивните изводи.
-- **004:** по-ясен гръдно-поясен маршрут, ганглийни варианти, надбъбречно изключение и концепция за диференциален симпатиков изход.
-- **005:** разяснени черепните маршрути и периферните ганглии; отделена доказана анатомия от оспорваната сакрална класификация; изрично отделени аферентни и еферентни вагални влакна.
+## Unresolved before an unconditional academic-quality PASS
 
-## 6. Остатъчни ограничения / действия преди евентуално академично издание
-
-1. **Не е правен пълен систематичен обзор.** Литературата е целева и съдържа основни академични обзори и едно релевантно първично изследване за класификационен спор; изчерпателно претърсване по PRISMA не е заявено.
-2. **Няма външен експертен peer review.** Не е представян и не е симулиран като извършен.
-3. **Някои изводи за преживяване** са ограничения на логическата интерпретация от автономна физиология, а не специфичен експеримент за даден сценарий. Те са изрично маркирани като рамки/обобщения.
-4. **Спорната сакрална класификация** се представя като спор за критерии и не се използва да се отрича класическата функционална анатомия.
-5. **Не е оценена ефективност на поведенческа интервенция**, тъй като такива интервенции не се предлагат.
-
-**Заключение:** петте урока са **съществено преработени, навигационно последователни и годни за редакционна публикация**, със строго посочени научни граници. Документът съзнателно не присъжда безусловен научен PASS извън реално извършените проверки.
+1. Audit every distinct empirical claim against the relevant passage of full academic text, including potential contradictions in recent literature; log page/section rather than DOI existence alone.
+2. Seek qualified independent domain review where academic publication assurance is required.
+3. Run pedagogical comprehension testing with readers new to physiology; self-check questions are not evidence that learning occurred.
+4. GitHub byte-for-byte comparison was **not performed** because the repository baseline was not provided in this task. Use the supplied manifest and diff against the actual checked-out files.

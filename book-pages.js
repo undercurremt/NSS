@@ -93,4 +93,9 @@ window.BOOK_PAGES = [
   { file: '091-08.03-physiological-adaptation-at-birth.md', label: "091 Physiological Adaptation at Birth" },
   { file: '092-08.04-infant-autonomic-regulation.md', label: "092 Infant Autonomic Regulation" },
   { file: '093-08.05-maturation-of-cardiorespiratory-regulation.md', label: "093 Maturation of Cardiorespiratory Regulation" },
+  { file: '094-08.06-early-reflexes-as-developmental-phenomena.md', label: "094 Early Reflexes as Developmental Phenomena" },
+  { file: '095-08.07-sensory-motor-development-and-bodily-regulation.md', label: "095 Sensory–Motor Development and Bodily Regulation" },
+  { file: '096-08.08-temperament-and-physiological-reactivity.md', label: "096 Temperament and Physiological Reactivity" },
+  { file: '097-08.09-sensitive-periods-and-experience.md', label: "097 Sensitive Periods and Experience" },
+  { file: '098-08.10-development-of-self-regulation.md', label: "098 Development of Self-Regulation" },
 ];

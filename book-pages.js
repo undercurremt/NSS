@@ -56,4 +56,9 @@ window.BOOK_PAGES = [
   { file: '054-04.09-bodily-sensation-and-interpretation.md', label: "054 Bodily Sensation and Interpretation" },
   { file: '055-04.10-interoception-and-regulatory-behavior.md', label: "055 Interoception and Regulatory Behavior" },
   { file: '056-04.11-nociception-and-pain-experience.md', label: "056 Nociception and Pain Experience" },
+  { file: '057-05.01-the-physiological-stress-response.md', label: "057 The Physiological Stress Response" },
+  { file: '058-05.02-sympathoadrenal-activation.md', label: "058 Sympathoadrenal Activation" },
+  { file: '059-05.03-the-hypothalamic-pituitary-adrenal-axis.md', label: "059 The Hypothalamic-Pituitary-Adrenal Axis" },
+  { file: '060-05.04-threat-processing-and-defensive-organization.md', label: "060 Threat Processing and Defensive Organization" },
+  { file: '061-05.05-orienting-and-vigilance.md', label: "061 Orienting and Vigilance" },
 ];

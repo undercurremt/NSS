@@ -59,5 +59,11 @@
   * [054 Bodily Sensation and Interpretation](/054-04.09-bodily-sensation-and-interpretation.md)
   * [055 Interoception and Regulatory Behavior](/055-04.10-interoception-and-regulatory-behavior.md)
   * [056 Nociception and Pain Experience](/056-04.11-nociception-and-pain-experience.md)
+* **Part V — Stress, Threat & Defensive Regulation**
+  * [057 The Physiological Stress Response](/057-05.01-the-physiological-stress-response.md)
+  * [058 Sympathoadrenal Activation](/058-05.02-sympathoadrenal-activation.md)
+  * [059 The Hypothalamic-Pituitary-Adrenal Axis](/059-05.03-the-hypothalamic-pituitary-adrenal-axis.md)
+  * [060 Threat Processing and Defensive Organization](/060-05.04-threat-processing-and-defensive-organization.md)
+  * [061 Orienting and Vigilance](/061-05.05-orienting-and-vigilance.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

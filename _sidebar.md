@@ -105,7 +105,7 @@
   * [096 Temperament and Physiological Reactivity](/096-08.08-temperament-and-physiological-reactivity.md)
   * [097 Sensitive Periods and Experience](/097-08.09-sensitive-periods-and-experience.md)
   * [098 Development of Self-Regulation](/098-08.10-development-of-self-regulation.md)
-* **Part IX**
+* **Part IX — Social Regulation & Relationships**
   * [099 Social Signals and Physiological Responses](/099-09.01-social-signals-and-physiological-responses.md)
   * [100 Voice, Prosody and Social Communication](/100-09.02-voice-prosody-and-social-communication.md)
   * [101 Facial Expressions and Gaze](/101-09.03-facial-expressions-and-gaze.md)

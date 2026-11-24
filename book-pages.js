@@ -77,4 +77,9 @@ window.BOOK_PAGES = [
   { file: '075-06.07-defensive-and-appetitive-motivation.md', label: "075 Defensive and Appetitive Motivation" },
   { file: '076-06.08-wanting-liking-and-reward.md', label: "076 Wanting, Liking and Reward" },
   { file: '077-06.09-emotion-regulation.md', label: "077 Emotion Regulation" },
+  { file: '078-07.01-experience-dependent-neural-plasticity.md', label: "078 Experience-Dependent Neural Plasticity" },
+  { file: '079-07.02-habituation.md', label: "079 Habituation" },
+  { file: '080-07.03-sensitization.md', label: "080 Sensitization" },
+  { file: '081-07.04-associative-learning.md', label: "081 Associative Learning" },
+  { file: '082-07.05-threat-learning.md', label: "082 Threat Learning" },
 ];

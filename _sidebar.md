@@ -82,5 +82,11 @@
   * [075 Defensive and Appetitive Motivation](/075-06.07-defensive-and-appetitive-motivation.md)
   * [076 Wanting, Liking and Reward](/076-06.08-wanting-liking-and-reward.md)
   * [077 Emotion Regulation](/077-06.09-emotion-regulation.md)
+* **Part VII**
+  * [078 Experience-Dependent Neural Plasticity](/078-07.01-experience-dependent-neural-plasticity.md)
+  * [079 Habituation](/079-07.02-habituation.md)
+  * [080 Sensitization](/080-07.03-sensitization.md)
+  * [081 Associative Learning](/081-07.04-associative-learning.md)
+  * [082 Threat Learning](/082-07.05-threat-learning.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

@@ -72,5 +72,11 @@
   * [066 Acute and Prolonged Stress Exposure](/066-05.10-acute-and-prolonged-stress-exposure.md)
   * [067 Allostatic Load](/067-05.11-allostatic-load.md)
   * [068 Physiological Recovery After Stress](/068-05.12-physiological-recovery-after-stress.md)
+* **Part VI — Affect, Emotion & Motivation**
+  * [069 Affect and Core Affective Experience](/069-06.01-affect-and-core-affective-experience.md)
+  * [070 Valence](/070-06.02-valence.md)
+  * [071 Arousal](/071-06.03-arousal.md)
+  * [072 Emotion and Conscious Feeling](/072-06.04-emotion-and-conscious-feeling.md)
+  * [073 Autonomic Patterns in Emotion](/073-06.05-autonomic-patterns-in-emotion.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

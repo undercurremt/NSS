@@ -68,4 +68,9 @@ window.BOOK_PAGES = [
   { file: '066-05.10-acute-and-prolonged-stress-exposure.md', label: "066 Acute and Prolonged Stress Exposure" },
   { file: '067-05.11-allostatic-load.md', label: "067 Allostatic Load" },
   { file: '068-05.12-physiological-recovery-after-stress.md', label: "068 Physiological Recovery After Stress" },
+  { file: '069-06.01-affect-and-core-affective-experience.md', label: "069 Affect and Core Affective Experience" },
+  { file: '070-06.02-valence.md', label: "070 Valence" },
+  { file: '071-06.03-arousal.md', label: "071 Arousal" },
+  { file: '072-06.04-emotion-and-conscious-feeling.md', label: "072 Emotion and Conscious Feeling" },
+  { file: '073-06.05-autonomic-patterns-in-emotion.md', label: "073 Autonomic Patterns in Emotion" },
 ];

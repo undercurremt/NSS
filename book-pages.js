@@ -73,4 +73,8 @@ window.BOOK_PAGES = [
   { file: '071-06.03-arousal.md', label: "071 Arousal" },
   { file: '072-06.04-emotion-and-conscious-feeling.md', label: "072 Emotion and Conscious Feeling" },
   { file: '073-06.05-autonomic-patterns-in-emotion.md', label: "073 Autonomic Patterns in Emotion" },
+  { file: '074-06.06-bodily-feedback-and-emotional-experience.md', label: "074 Bodily Feedback and Emotional Experience" },
+  { file: '075-06.07-defensive-and-appetitive-motivation.md', label: "075 Defensive and Appetitive Motivation" },
+  { file: '076-06.08-wanting-liking-and-reward.md', label: "076 Wanting, Liking and Reward" },
+  { file: '077-06.09-emotion-regulation.md', label: "077 Emotion Regulation" },
 ];

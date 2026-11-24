@@ -66,4 +66,6 @@ window.BOOK_PAGES = [
   { file: '064-05.08-tonic-immobility.md', label: "064 Tonic Immobility" },
   { file: '065-05.09-autonomic-variability-during-threat.md', label: "065 Autonomic Variability During Threat" },
   { file: '066-05.10-acute-and-prolonged-stress-exposure.md', label: "066 Acute and Prolonged Stress Exposure" },
+  { file: '067-05.11-allostatic-load.md', label: "067 Allostatic Load" },
+  { file: '068-05.12-physiological-recovery-after-stress.md', label: "068 Physiological Recovery After Stress" },
 ];

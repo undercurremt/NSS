@@ -70,5 +70,7 @@
   * [064 Tonic Immobility](/064-05.08-tonic-immobility.md)
   * [065 Autonomic Variability During Threat](/065-05.09-autonomic-variability-during-threat.md)
   * [066 Acute and Prolonged Stress Exposure](/066-05.10-acute-and-prolonged-stress-exposure.md)
+  * [067 Allostatic Load](/067-05.11-allostatic-load.md)
+  * [068 Physiological Recovery After Stress](/068-05.12-physiological-recovery-after-stress.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

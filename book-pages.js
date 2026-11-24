@@ -61,4 +61,9 @@ window.BOOK_PAGES = [
   { file: '059-05.03-the-hypothalamic-pituitary-adrenal-axis.md', label: "059 The Hypothalamic-Pituitary-Adrenal Axis" },
   { file: '060-05.04-threat-processing-and-defensive-organization.md', label: "060 Threat Processing and Defensive Organization" },
   { file: '061-05.05-orienting-and-vigilance.md', label: "061 Orienting and Vigilance" },
+  { file: '062-05.06-active-defensive-responses.md', label: "062 Active Defensive Responses" },
+  { file: '063-05.07-freezing-as-a-defensive-response.md', label: "063 Freezing as a Defensive Response" },
+  { file: '064-05.08-tonic-immobility.md', label: "064 Tonic Immobility" },
+  { file: '065-05.09-autonomic-variability-during-threat.md', label: "065 Autonomic Variability During Threat" },
+  { file: '066-05.10-acute-and-prolonged-stress-exposure.md', label: "066 Acute and Prolonged Stress Exposure" },
 ];

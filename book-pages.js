@@ -98,4 +98,9 @@ window.BOOK_PAGES = [
   { file: '096-08.08-temperament-and-physiological-reactivity.md', label: "096 Temperament and Physiological Reactivity" },
   { file: '097-08.09-sensitive-periods-and-experience.md', label: "097 Sensitive Periods and Experience" },
   { file: '098-08.10-development-of-self-regulation.md', label: "098 Development of Self-Regulation" },
+  { file: '099-09.01-social-signals-and-physiological-responses.md', label: "099 Social Signals and Physiological Responses" },
+  { file: '100-09.02-voice-prosody-and-social-communication.md', label: "100 Voice, Prosody and Social Communication" },
+  { file: '101-09.03-facial-expressions-and-gaze.md', label: "101 Facial Expressions and Gaze" },
+  { file: '102-09.04-attachment-and-proximity-seeking.md', label: "102 Attachment and Proximity Seeking" },
+  { file: '103-09.05-caregiver-responsiveness.md', label: "103 Caregiver Responsiveness" },
 ];

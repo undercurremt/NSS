@@ -105,5 +105,11 @@
   * [096 Temperament and Physiological Reactivity](/096-08.08-temperament-and-physiological-reactivity.md)
   * [097 Sensitive Periods and Experience](/097-08.09-sensitive-periods-and-experience.md)
   * [098 Development of Self-Regulation](/098-08.10-development-of-self-regulation.md)
+* **Part IX**
+  * [099 Social Signals and Physiological Responses](/099-09.01-social-signals-and-physiological-responses.md)
+  * [100 Voice, Prosody and Social Communication](/100-09.02-voice-prosody-and-social-communication.md)
+  * [101 Facial Expressions and Gaze](/101-09.03-facial-expressions-and-gaze.md)
+  * [102 Attachment and Proximity Seeking](/102-09.04-attachment-and-proximity-seeking.md)
+  * [103 Caregiver Responsiveness](/103-09.05-caregiver-responsiveness.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

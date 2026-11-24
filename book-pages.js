@@ -82,4 +82,9 @@ window.BOOK_PAGES = [
   { file: '080-07.03-sensitization.md', label: "080 Sensitization" },
   { file: '081-07.04-associative-learning.md', label: "081 Associative Learning" },
   { file: '082-07.05-threat-learning.md', label: "082 Threat Learning" },
+  { file: '083-07.06-generalization-of-learned-responses.md', label: "083 Generalization of Learned Responses" },
+  { file: '084-07.07-extinction-and-inhibitory-learning.md', label: "084 Extinction and Inhibitory Learning" },
+  { file: '085-07.08-reward-based-learning.md', label: "085 Reward-Based Learning" },
+  { file: '086-07.09-predictive-processing.md', label: "086 Predictive Processing" },
+  { file: '087-07.10-habit-formation.md', label: "087 Habit Formation" },
 ];

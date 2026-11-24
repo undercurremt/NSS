@@ -103,4 +103,9 @@ window.BOOK_PAGES = [
   { file: '101-09.03-facial-expressions-and-gaze.md', label: "101 Facial Expressions and Gaze" },
   { file: '102-09.04-attachment-and-proximity-seeking.md', label: "102 Attachment and Proximity Seeking" },
   { file: '103-09.05-caregiver-responsiveness.md', label: "103 Caregiver Responsiveness" },
+  { file: '104-09.06-early-co-regulation.md', label: "104 Early Co-Regulation" },
+  { file: '105-09.07-social-buffering-of-stress-responses.md', label: "105 Social Buffering of Stress Responses" },
+  { file: '106-09.08-interaction-mismatch-and-repair.md', label: "106 Interaction, Mismatch and Repair" },
+  { file: '107-09.09-interpersonal-synchrony.md', label: "107 Interpersonal Synchrony" },
+  { file: '108-09.10-social-threat-and-exclusion.md', label: "108 Social Threat and Exclusion" },
 ];

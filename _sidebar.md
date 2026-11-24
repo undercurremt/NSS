@@ -94,5 +94,11 @@
   * [086 Predictive Processing](/086-07.09-predictive-processing.md)
   * [087 Habit Formation](/087-07.10-habit-formation.md)
   * [088 Behavioral Flexibility](/088-07.11-behavioral-flexibility.md)
+* **Part VIII — Development of Autonomic Regulation**
+  * [089 Prenatal Development of Autonomic Pathways](/089-08.01-prenatal-development-of-autonomic-pathways.md)
+  * [090 Fetal Physiological Regulation](/090-08.02-fetal-physiological-regulation.md)
+  * [091 Physiological Adaptation at Birth](/091-08.03-physiological-adaptation-at-birth.md)
+  * [092 Infant Autonomic Regulation](/092-08.04-infant-autonomic-regulation.md)
+  * [093 Maturation of Cardiorespiratory Regulation](/093-08.05-maturation-of-cardiorespiratory-regulation.md)
 * [Quality Review 001–005](/QUALITY_REVIEW.md)
 * [Quality Review 006–010](/releases/006-010/QUALITY_REVIEW.md)

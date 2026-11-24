@@ -88,4 +88,9 @@ window.BOOK_PAGES = [
   { file: '086-07.09-predictive-processing.md', label: "086 Predictive Processing" },
   { file: '087-07.10-habit-formation.md', label: "087 Habit Formation" },
   { file: '088-07.11-behavioral-flexibility.md', label: "088 Behavioral Flexibility" },
+  { file: '089-08.01-prenatal-development-of-autonomic-pathways.md', label: "089 Prenatal Development of Autonomic Pathways" },
+  { file: '090-08.02-fetal-physiological-regulation.md', label: "090 Fetal Physiological Regulation" },
+  { file: '091-08.03-physiological-adaptation-at-birth.md', label: "091 Physiological Adaptation at Birth" },
+  { file: '092-08.04-infant-autonomic-regulation.md', label: "092 Infant Autonomic Regulation" },
+  { file: '093-08.05-maturation-of-cardiorespiratory-regulation.md', label: "093 Maturation of Cardiorespiratory Regulation" },
 ];

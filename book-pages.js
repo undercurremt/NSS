@@ -87,4 +87,5 @@ window.BOOK_PAGES = [
   { file: '085-07.08-reward-based-learning.md', label: "085 Reward-Based Learning" },
   { file: '086-07.09-predictive-processing.md', label: "086 Predictive Processing" },
   { file: '087-07.10-habit-formation.md', label: "087 Habit Formation" },
+  { file: '088-07.11-behavioral-flexibility.md', label: "088 Behavioral Flexibility" },
 ];
